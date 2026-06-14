@@ -1,0 +1,32 @@
+% fig3_via1.tex  — Figura 3: "Via 1" — LKH-3 como motor base + capa de recarga
+% Requiere: \usetikzlibrary{positioning,arrows.meta,shapes.geometric}
+% Se incluye con:  \input{fig3_via1}
+\begin{tikzpicture}[
+  >={Stealth[length=2.4mm]},
+  node distance=5.5mm and 7mm,
+  io/.style={rounded corners=6pt,draw,thick,fill=blue!8,align=center,
+             font=\footnotesize,inner sep=5pt,minimum height=10mm,text width=26mm},
+  eng/.style={draw,very thick,fill=red!8,align=center,font=\footnotesize\bfseries,
+              inner sep=5pt,minimum height=12mm,text width=28mm},
+  rep/.style={draw,thick,fill=green!10,align=center,font=\footnotesize,
+              inner sep=5pt,minimum height=12mm,text width=30mm},
+  flow/.style={->,very thick}
+]
+  \node[io]  (in)   {Instancia\\ \textbf{EVRP-TW-SPD}};
+  \node[io,right=of in] (strip) {Quitar estaciones\\ \scriptsize(Prop.~1: queda\\ VRPSPDTW factible)};
+  \node[eng,right=of strip] (lkh) {LKH-3\\ resuelve el n\'ucleo\\ \textmd{\scriptsize VRPSPDTW}};
+  \node[io,below=of lkh] (route) {Ruta base\\ factible (sin\\ bater\'ia)};
+  \node[rep,left=of route] (insert) {Inserci\'on de estaciones\\ + recarga parcial\\ \scriptsize(estilo PSSI / CMSA)};
+  \node[io,left=of insert] (out) {Soluci\'on\\ \textbf{EVRP-TW-SPD}\\ factible};
+
+  \draw[flow] (in) -- (strip);
+  \draw[flow] (strip) -- (lkh);
+  \draw[flow] (lkh) -- (route);
+  \draw[flow] (route) -- (insert);
+  \draw[flow] (insert) -- (out);
+
+  \node[font=\scriptsize,align=center,red!70!black] at (lkh.north) [above=1mm]
+       {motor general reutilizado};
+  \node[font=\scriptsize,align=center,green!45!black] at (insert.north) [above=1mm]
+       {capa el\'ectrica especializada};
+\end{tikzpicture}

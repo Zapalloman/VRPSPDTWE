@@ -1,0 +1,59 @@
+% fig1_esquema.tex  — Figura 1: esquema del problema VRPSPDTW-E
+% Requiere en el preámbulo del documento que la incluye:
+%   \usetikzlibrary{positioning,arrows.meta,calc,shapes.geometric}
+% Se incluye con:  \input{fig1_esquema}
+\begin{tikzpicture}[
+  >={Stealth[length=2mm]},
+  depot/.style={rectangle,draw,thick,fill=gray!20,minimum size=7mm,font=\small\bfseries},
+  cust/.style={circle,draw,thick,fill=blue!10,minimum size=7mm,font=\small},
+  stat/.style={regular polygon,regular polygon sides=3,draw,thick,fill=green!18,
+               minimum size=8mm,inner sep=0pt,font=\scriptsize},
+  arc/.style={->,very thick,gray!60!black}
+]
+  % ---------- Ruta (parte superior) ----------
+  \node[depot] (d0) at (0,0)   {0};
+  \node[cust]  (c1) at (2.2,0.7) {$c_1$};
+  \node[cust]  (c2) at (4.4,1.0) {$c_2$};
+  \node[stat]  (f)  at (6.6,0.3) {$f$};
+  \node[cust]  (c3) at (8.8,0.8) {$c_3$};
+  \node[depot] (d1) at (11,0)  {0};
+
+  \draw[arc] (d0) -- (c1);
+  \draw[arc] (c1) -- (c2);
+  \draw[arc] (c2) -- (f);
+  \draw[arc] (f)  -- (c3);
+  \draw[arc] (c3) -- (d1);
+
+  % etiquetas entrega (delivery) y recogida (pickup) simultaneas
+  \node[font=\scriptsize,blue!50!black,above=0.5mm of c1] {$\delta_1\!\downarrow\ \rho_1\!\uparrow$};
+  \node[font=\scriptsize,blue!50!black,above=0.5mm of c2] {$\delta_2\!\downarrow\ \rho_2\!\uparrow$};
+  \node[font=\scriptsize,blue!50!black,above=0.5mm of c3] {$\delta_3\!\downarrow\ \rho_3\!\uparrow$};
+  \node[font=\scriptsize,green!40!black,below=0.8mm of f] {recarga $q_f$};
+  \node[font=\scriptsize,below=0.8mm of d0] {dep\'osito};
+
+  % leyenda compacta
+  \node[font=\scriptsize,anchor=west] at (0,2.0)
+    {$\downarrow$ entrega \quad $\uparrow$ recogida \quad (simult\'aneas, una sola visita)};
+
+  % ---------- Curva de estado de carga SoC (parte inferior) ----------
+  \begin{scope}[yshift=-4.7cm]
+    \draw[->] (0,0) -- (11.3,0) node[right,font=\scriptsize] {avance de la ruta};
+    \draw[->] (0,0) -- (0,2.3) node[above,font=\scriptsize] {SoC $y$};
+    \draw[dashed,gray] (0,2.0) -- (11,2.0) node[right,font=\scriptsize,black] {$Q$};
+
+    % SoC: parte llena en 0, baja con la distancia, salta en la estacion f, vuelve a bajar
+    \draw[very thick,green!45!black]
+      (0,2.0) -- (2.2,1.45) -- (4.4,0.95) -- (6.6,0.45) % consumo hasta la estacion
+      -- (6.6,1.75)                                      % salto por recarga parcial q_f
+      -- (8.8,1.15) -- (11,0.55);                        % consumo hasta el deposito
+
+    % marcas verticales de los nodos
+    \foreach \x/\lab in {0/0,2.2/c_1,4.4/c_2,6.6/f,8.8/c_3,11/0}
+      \draw[gray!40] (\x,0) -- (\x,-0.08) node[below,font=\scriptsize,black] {$\lab$};
+
+    \draw[<->,green!40!black] (6.75,0.45) -- (6.75,1.75)
+      node[midway,right,font=\scriptsize] {$q_f$};
+    \node[font=\scriptsize,anchor=west] at (0.2,-0.7)
+      {restricci\'on: $\,0 \le y \le Q$ en todo nodo (autonom\'ia)};
+  \end{scope}
+\end{tikzpicture}

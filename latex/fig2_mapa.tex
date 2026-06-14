@@ -1,0 +1,36 @@
+% fig2_mapa.tex  — Figura 2: mapa del estado del arte y posicion de LKH-3
+% Requiere: \usetikzlibrary{positioning,arrows.meta,fit,backgrounds}
+% Se incluye con:  \input{fig2_mapa}
+\begin{tikzpicture}[
+  >={Stealth[length=2mm]},
+  fam/.style={rounded corners,draw,thick,align=center,font=\scriptsize,inner sep=3pt},
+  lkh/.style={rounded corners,draw=red!70!black,very thick,fill=red!8,align=center,
+              font=\scriptsize,inner sep=3pt}
+]
+  % ejes
+  \draw[->,thick] (0,0) -- (10.6,0) node[right,font=\scriptsize,align=center] {escala / rapidez $\rightarrow$};
+  \draw[->,thick] (0,0) -- (0,6.4) node[above,font=\scriptsize] {calidad de soluci\'on $\rightarrow$};
+  \node[font=\scriptsize,rotate=90,anchor=south] at (-0.45,3.2) {\'optimo \;\;\;\; aproximado};
+
+  % familias de metodos (x = escala/rapidez, y = calidad)
+  \node[fam,fill=purple!10] (exact) at (1.9,5.4)
+       {Exactos (B\&B, B\&C,\\ branch-price-cut)\\ \textcolor{purple!60!black}{$\le$15--25 clientes}};
+  \node[fam,fill=blue!8]   (constr) at (2.3,1.6)
+       {Heur\'isticos\\ constructivos\\ (savings, RCRS)};
+  \node[lkh] (lkh) at (5.0,4.7)
+       {\textbf{LKH-3}\\ (k-opt + penalizaci\'on)\\ calidad alta,\\
+        \textcolor{red!70!black}{lento; sin bater\'ia}};
+  \node[fam,fill=green!10] (meta) at (8.3,5.2)
+       {Metaheur\'isticos\\ espec\'ificos\\ MATE / HMA / CMSA\\ \textcolor{green!45!black}{hasta 1000 clientes}};
+  \node[fam,fill=orange!12,dashed] (ml) at (8.4,2.6)
+       {Aprendizaje\\ (RL, GNN, LLM)\\ \textcolor{orange!60!black}{emergente; nada}\\
+        \textcolor{orange!60!black}{a\'un en EVRP-TW-SPD}};
+
+  % flecha de la tendencia
+  \draw[->,thick,red!60!black,dotted] (lkh.east) to[bend left=12] (meta.west);
+  \node[font=\scriptsize,red!60!black] at (6.55,6.15) {frontera SOTA};
+
+  % nota: LKH-3 resuelve solo el nucleo VRPSPDTW
+  \node[font=\scriptsize,align=center,anchor=north] at (5.3,-0.5)
+       {LKH-3 resuelve nativamente el \emph{n\'ucleo} VRPSPDTW, no la capa el\'ectrica};
+\end{tikzpicture}
