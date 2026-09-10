@@ -1,0 +1,9 @@
+/Users/javier/VRPSPDTWE/reproduccion/hma/.local/upstream/src/search_framework.cpp:848:82: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]
+  848 |             printf("Number of move eval calls: %d, average time: %d nanosecs\n", call_count_move_eval, mean_duration_move_eval);
+      |                                                ~~                                ^~~~~~~~~~~~~~~~~~~~
+      |                                                %ld
+/Users/javier/VRPSPDTWE/reproduccion/hma/.local/upstream/src/search_framework.cpp:848:104: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]
+  848 |             printf("Number of move eval calls: %d, average time: %d nanosecs\n", call_count_move_eval, mean_duration_move_eval);
+      |                                                                  ~~                                    ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                  %ld
+2 warnings generated.
