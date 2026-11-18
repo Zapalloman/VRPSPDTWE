@@ -1,0 +1,1761 @@
+[
+ {
+  "file": "solution/akb/c101C10_timelimit=105_subproblem=1.txt",
+  "inst": "c101C10",
+  "K": 3,
+  "cost": 3388.25,
+  "reported": 3388.25,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/c101C5_timelimit=105_subproblem=1.txt",
+  "inst": "c101C5",
+  "K": 2,
+  "cost": 2257.75,
+  "reported": 2257.75,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/c101_21_timelimit=630_subproblem=1.txt",
+  "inst": "c101_21",
+  "K": 12,
+  "cost": 13043.38,
+  "reported": 13043.38,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/c102_21_timelimit=630_subproblem=1.txt",
+  "inst": "c102_21",
+  "K": 10,
+  "cost": 11089.8,
+  "reported": 11089.8,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/c103C15_timelimit=105_subproblem=1.txt",
+  "inst": "c103C15",
+  "K": 3,
+  "cost": 3348.46,
+  "reported": 3348.46,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/c103C5_timelimit=105_subproblem=1.txt",
+  "inst": "c103C5",
+  "K": 1,
+  "cost": 1175.37,
+  "reported": 1175.37,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/c103_21_timelimit=630_subproblem=1.txt",
+  "inst": "c103_21",
+  "K": 10,
+  "cost": 10945.45,
+  "reported": 10945.45,
+  "ok_reported": false,
+  "ok_recomputed": true,
+  "errors": [
+   "ruta 0: {'load': 0.0, 'tw': 0.020562375098421626, 'bat': 0.0, 'batmax': 0.0, 'struct': []}"
+  ]
+ },
+ {
+  "file": "solution/akb/c104C10_timelimit=105_subproblem=1.txt",
+  "inst": "c104C10",
+  "K": 2,
+  "cost": 2273.93,
+  "reported": 2273.93,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/c104_21_timelimit=630_subproblem=1.txt",
+  "inst": "c104_21",
+  "K": 9,
+  "cost": 9890.98,
+  "reported": 9890.98,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/c105_21_timelimit=630_subproblem=1.txt",
+  "inst": "c105_21",
+  "K": 11,
+  "cost": 12030.81,
+  "reported": 12030.81,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/c106C15_timelimit=105_subproblem=1.txt",
+  "inst": "c106C15",
+  "K": 3,
+  "cost": 3275.13,
+  "reported": 3275.13,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/c106_21_timelimit=630_subproblem=1.txt",
+  "inst": "c106_21",
+  "K": 10,
+  "cost": 11040.32,
+  "reported": 11040.32,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/c107_21_timelimit=630_subproblem=1.txt",
+  "inst": "c107_21",
+  "K": 10,
+  "cost": 11021.16,
+  "reported": 11021.16,
+  "ok_reported": false,
+  "ok_recomputed": true,
+  "errors": [
+   "ruta 6: {'load': 0.0, 'tw': 0.021961888752798586, 'bat': 0.0, 'batmax': 0.0, 'struct': []}"
+  ]
+ },
+ {
+  "file": "solution/akb/c108_21_timelimit=630_subproblem=1.txt",
+  "inst": "c108_21",
+  "K": 10,
+  "cost": 11006.1,
+  "reported": 11006.1,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/c109_21_timelimit=630_subproblem=1.txt",
+  "inst": "c109_21",
+  "K": 10,
+  "cost": 10911.47,
+  "reported": 10911.47,
+  "ok_reported": false,
+  "ok_recomputed": true,
+  "errors": [
+   "ruta 8: {'load': 0.0, 'tw': 0.0, 'bat': 0.010896161017363681, 'batmax': 0.0, 'struct': []}"
+  ]
+ },
+ {
+  "file": "solution/akb/c201_21_timelimit=630_subproblem=1.txt",
+  "inst": "c201_21",
+  "K": 4,
+  "cost": 4629.95,
+  "reported": 4629.95,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/c202C10_timelimit=105_subproblem=1.txt",
+  "inst": "c202C10",
+  "K": 1,
+  "cost": 1304.06,
+  "reported": 1304.06,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/c202C15_timelimit=105_subproblem=1.txt",
+  "inst": "c202C15",
+  "K": 2,
+  "cost": 2383.62,
+  "reported": 2383.62,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/c202_21_timelimit=630_subproblem=1.txt",
+  "inst": "c202_21",
+  "K": 4,
+  "cost": 4629.95,
+  "reported": 4629.95,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/c203_21_timelimit=630_subproblem=1.txt",
+  "inst": "c203_21",
+  "K": 4,
+  "cost": 4629.95,
+  "reported": 4629.95,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/c204_21_timelimit=630_subproblem=1.txt",
+  "inst": "c204_21",
+  "K": 4,
+  "cost": 4628.91,
+  "reported": 4628.91,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/c205C10_timelimit=105_subproblem=1.txt",
+  "inst": "c205C10",
+  "K": 2,
+  "cost": 2228.28,
+  "reported": 2228.28,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/c205_21_timelimit=630_subproblem=1.txt",
+  "inst": "c205_21",
+  "K": 4,
+  "cost": 4629.95,
+  "reported": 4629.95,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/c206C5_timelimit=105_subproblem=1.txt",
+  "inst": "c206C5",
+  "K": 1,
+  "cost": 1242.56,
+  "reported": 1242.56,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/c206_21_timelimit=630_subproblem=1.txt",
+  "inst": "c206_21",
+  "K": 4,
+  "cost": 4629.95,
+  "reported": 4629.95,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/c207_21_timelimit=630_subproblem=1.txt",
+  "inst": "c207_21",
+  "K": 4,
+  "cost": 4629.95,
+  "reported": 4629.95,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/c208C15_timelimit=105_subproblem=1.txt",
+  "inst": "c208C15",
+  "K": 2,
+  "cost": 2300.55,
+  "reported": 2300.55,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/c208C5_timelimit=105_subproblem=1.txt",
+  "inst": "c208C5",
+  "K": 1,
+  "cost": 1158.48,
+  "reported": 1158.48,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/c208_21_timelimit=630_subproblem=1.txt",
+  "inst": "c208_21",
+  "K": 4,
+  "cost": 4629.95,
+  "reported": 4629.95,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/r101_21_timelimit=630_subproblem=1.txt",
+  "inst": "r101_21",
+  "K": 17,
+  "cost": 18636.96,
+  "reported": 18636.96,
+  "ok_reported": false,
+  "ok_recomputed": true,
+  "errors": [
+   "ruta 8: {'load': 0.0, 'tw': 0.00523454907184373, 'bat': 0.0, 'batmax': 0.0, 'struct': []}",
+   "ruta 14: {'load': 0.0, 'tw': 0.002697329019014205, 'bat': 0.0, 'batmax': 0.0, 'struct': []}"
+  ]
+ },
+ {
+  "file": "solution/akb/r102C10_timelimit=105_subproblem=1.txt",
+  "inst": "r102C10",
+  "K": 3,
+  "cost": 3249.19,
+  "reported": 3249.19,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/r102C15_timelimit=105_subproblem=1.txt",
+  "inst": "r102C15",
+  "K": 5,
+  "cost": 5412.78,
+  "reported": 5412.78,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/r102_21_timelimit=630_subproblem=1.txt",
+  "inst": "r102_21",
+  "K": 16,
+  "cost": 17424.75,
+  "reported": 17424.75,
+  "ok_reported": false,
+  "ok_recomputed": true,
+  "errors": [
+   "ruta 4: {'load': 0.0, 'tw': 0.004675269109924329, 'bat': 0.0, 'batmax': 0.0, 'struct': []}",
+   "ruta 7: {'load': 0.0, 'tw': 0.0003367779441418861, 'bat': 0.0, 'batmax': 0.0, 'struct': []}"
+  ]
+ },
+ {
+  "file": "solution/akb/r103C10_timelimit=105_subproblem=1.txt",
+  "inst": "r103C10",
+  "K": 2,
+  "cost": 2206.12,
+  "reported": 2206.12,
+  "ok_reported": false,
+  "ok_recomputed": true,
+  "errors": [
+   "ruta 0: {'load': 0.0, 'tw': 0.0, 'bat': 0.012010627193838275, 'batmax': 0.0, 'struct': []}"
+  ]
+ },
+ {
+  "file": "solution/akb/r103_21_timelimit=630_subproblem=1.txt",
+  "inst": "r103_21",
+  "K": 13,
+  "cost": 14209.21,
+  "reported": 14209.21,
+  "ok_reported": false,
+  "ok_recomputed": true,
+  "errors": [
+   "ruta 2: {'load': 0.0, 'tw': 0.003231277616720263, 'bat': 0.0, 'batmax': 0.0, 'struct': []}"
+  ]
+ },
+ {
+  "file": "solution/akb/r104C5_timelimit=105_subproblem=1.txt",
+  "inst": "r104C5",
+  "K": 2,
+  "cost": 2136.69,
+  "reported": 2136.69,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/r104_21_timelimit=630_subproblem=1.txt",
+  "inst": "r104_21",
+  "K": 11,
+  "cost": 12051.19,
+  "reported": 12051.19,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/r105C15_timelimit=105_subproblem=1.txt",
+  "inst": "r105C15",
+  "K": 4,
+  "cost": 4336.15,
+  "reported": 4336.15,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/r105C5_timelimit=105_subproblem=1.txt",
+  "inst": "r105C5",
+  "K": 2,
+  "cost": 2156.08,
+  "reported": 2156.08,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/r105_21_timelimit=630_subproblem=1.txt",
+  "inst": "r105_21",
+  "K": 14,
+  "cost": 15366.33,
+  "reported": 15366.33,
+  "ok_reported": false,
+  "ok_recomputed": true,
+  "errors": [
+   "ruta 8: {'load': 0.0, 'tw': 0.0011129120325676922, 'bat': 0.0, 'batmax': 0.0, 'struct': []}"
+  ]
+ },
+ {
+  "file": "solution/akb/r106_21_timelimit=630_subproblem=1.txt",
+  "inst": "r106_21",
+  "K": 13,
+  "cost": 14265.55,
+  "reported": 14265.55,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/r107_21_timelimit=630_subproblem=1.txt",
+  "inst": "r107_21",
+  "K": 12,
+  "cost": 13112.66,
+  "reported": 13112.66,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/r108_21_timelimit=630_subproblem=1.txt",
+  "inst": "r108_21",
+  "K": 11,
+  "cost": 12016.74,
+  "reported": 12016.74,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/r109_21_timelimit=630_subproblem=1.txt",
+  "inst": "r109_21",
+  "K": 12,
+  "cost": 13203.74,
+  "reported": 13203.74,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/r110_21_timelimit=630_subproblem=1.txt",
+  "inst": "r110_21",
+  "K": 11,
+  "cost": 12070.04,
+  "reported": 12070.04,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/r111_21_timelimit=630_subproblem=1.txt",
+  "inst": "r111_21",
+  "K": 12,
+  "cost": 13070.64,
+  "reported": 13070.64,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/r112_21_timelimit=630_subproblem=1.txt",
+  "inst": "r112_21",
+  "K": 11,
+  "cost": 12001.79,
+  "reported": 12001.79,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/r201C10_timelimit=105_subproblem=1.txt",
+  "inst": "r201C10",
+  "K": 1,
+  "cost": 1241.51,
+  "reported": 1241.51,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/r201_21_timelimit=630_subproblem=1.txt",
+  "inst": "r201_21",
+  "K": 3,
+  "cost": 4268.88,
+  "reported": 4268.88,
+  "ok_reported": false,
+  "ok_recomputed": true,
+  "errors": [
+   "ruta 2: {'load': 0.0, 'tw': 0.000618434227931175, 'bat': 0.0, 'batmax': 0.0, 'struct': []}"
+  ]
+ },
+ {
+  "file": "solution/akb/r202C15_timelimit=105_subproblem=1.txt",
+  "inst": "r202C15",
+  "K": 2,
+  "cost": 2358.0,
+  "reported": 2358.0,
+  "ok_reported": false,
+  "ok_recomputed": true,
+  "errors": [
+   "ruta 1: {'load': 0.0, 'tw': 0.0, 'bat': 0.011449307214743243, 'batmax': 0.0, 'struct': []}"
+  ]
+ },
+ {
+  "file": "solution/akb/r202C5_timelimit=105_subproblem=1.txt",
+  "inst": "r202C5",
+  "K": 1,
+  "cost": 1128.78,
+  "reported": 1128.78,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/r202_21_timelimit=630_subproblem=1.txt",
+  "inst": "r202_21",
+  "K": 3,
+  "cost": 4054.75,
+  "reported": 4054.75,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/r203C10_timelimit=105_subproblem=1.txt",
+  "inst": "r203C10",
+  "K": 1,
+  "cost": 1218.21,
+  "reported": 1218.21,
+  "ok_reported": false,
+  "ok_recomputed": true,
+  "errors": [
+   "ruta 0: {'load': 0.0, 'tw': 0.0, 'bat': 0.0, 'batmax': 0.010073008615925971, 'struct': []}"
+  ]
+ },
+ {
+  "file": "solution/akb/r203C5_timelimit=105_subproblem=1.txt",
+  "inst": "r203C5",
+  "K": 1,
+  "cost": 1179.06,
+  "reported": 1179.06,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/r203_21_timelimit=630_subproblem=1.txt",
+  "inst": "r203_21",
+  "K": 3,
+  "cost": 3898.68,
+  "reported": 3898.68,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/r204_21_timelimit=630_subproblem=1.txt",
+  "inst": "r204_21",
+  "K": 2,
+  "cost": 2815.58,
+  "reported": 2815.58,
+  "ok_reported": false,
+  "ok_recomputed": true,
+  "errors": [
+   "ruta 0: {'load': 0.0, 'tw': 5.7168326748069376e-06, 'bat': 0.0, 'batmax': 0.0, 'struct': []}"
+  ]
+ },
+ {
+  "file": "solution/akb/r205_21_timelimit=630_subproblem=1.txt",
+  "inst": "r205_21",
+  "K": 3,
+  "cost": 3995.35,
+  "reported": 3995.35,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/r206_21_timelimit=630_subproblem=1.txt",
+  "inst": "r206_21",
+  "K": 3,
+  "cost": 3925.95,
+  "reported": 3925.95,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/r207_21_timelimit=630_subproblem=1.txt",
+  "inst": "r207_21",
+  "K": 2,
+  "cost": 2851.75,
+  "reported": 2851.75,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/r208_21_timelimit=630_subproblem=1.txt",
+  "inst": "r208_21",
+  "K": 2,
+  "cost": 2740.06,
+  "reported": 2740.06,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/r209C15_timelimit=105_subproblem=1.txt",
+  "inst": "r209C15",
+  "K": 1,
+  "cost": 1313.24,
+  "reported": 1313.24,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/r209_21_timelimit=630_subproblem=1.txt",
+  "inst": "r209_21",
+  "K": 3,
+  "cost": 3877.24,
+  "reported": 3877.24,
+  "ok_reported": false,
+  "ok_recomputed": true,
+  "errors": [
+   "ruta 0: {'load': 0.0, 'tw': 0.0004932976577265435, 'bat': 0.0, 'batmax': 0.0, 'struct': []}"
+  ]
+ },
+ {
+  "file": "solution/akb/r210_21_timelimit=630_subproblem=1.txt",
+  "inst": "r210_21",
+  "K": 3,
+  "cost": 3846.62,
+  "reported": 3846.62,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/r211_21_timelimit=630_subproblem=1.txt",
+  "inst": "r211_21",
+  "K": 3,
+  "cost": 3772.67,
+  "reported": 3772.67,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/rc101_21_timelimit=630_subproblem=1.txt",
+  "inst": "rc101_21",
+  "K": 15,
+  "cost": 16661.53,
+  "reported": 16661.53,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/rc102C10_timelimit=105_subproblem=1.txt",
+  "inst": "rc102C10",
+  "K": 4,
+  "cost": 4423.51,
+  "reported": 4423.51,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/rc102_21_timelimit=630_subproblem=1.txt",
+  "inst": "rc102_21",
+  "K": 14,
+  "cost": 15510.31,
+  "reported": 15510.31,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/rc103C15_timelimit=105_subproblem=1.txt",
+  "inst": "rc103C15",
+  "K": 4,
+  "cost": 4397.67,
+  "reported": 4397.67,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/rc103_21_timelimit=630_subproblem=1.txt",
+  "inst": "rc103_21",
+  "K": 12,
+  "cost": 13343.56,
+  "reported": 13343.56,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/rc104_21_timelimit=630_subproblem=1.txt",
+  "inst": "rc104_21",
+  "K": 11,
+  "cost": 12150.47,
+  "reported": 12150.47,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/rc105C5_timelimit=105_subproblem=1.txt",
+  "inst": "rc105C5",
+  "K": 2,
+  "cost": 2233.77,
+  "reported": 2233.77,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/rc105_21_timelimit=630_subproblem=1.txt",
+  "inst": "rc105_21",
+  "K": 14,
+  "cost": 15447.52,
+  "reported": 15447.52,
+  "ok_reported": false,
+  "ok_recomputed": true,
+  "errors": [
+   "ruta 13: {'load': 0.0, 'tw': 8.879793773530764e-05, 'bat': 0.0, 'batmax': 0.0, 'struct': []}"
+  ]
+ },
+ {
+  "file": "solution/akb/rc106_21_timelimit=630_subproblem=1.txt",
+  "inst": "rc106_21",
+  "K": 13,
+  "cost": 14388.12,
+  "reported": 14388.12,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/rc107_21_timelimit=630_subproblem=1.txt",
+  "inst": "rc107_21",
+  "K": 11,
+  "cost": 12234.76,
+  "reported": 12234.76,
+  "ok_reported": false,
+  "ok_recomputed": true,
+  "errors": [
+   "ruta 1: {'load': 0.0, 'tw': 0.0, 'bat': 0.010000036578876603, 'batmax': 0.0, 'struct': []}",
+   "ruta 3: {'load': 0.0, 'tw': 0.0, 'bat': 0.011106352024949473, 'batmax': 0.0, 'struct': []}"
+  ]
+ },
+ {
+  "file": "solution/akb/rc108C10_timelimit=105_subproblem=1.txt",
+  "inst": "rc108C10",
+  "K": 3,
+  "cost": 3345.93,
+  "reported": 3345.93,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/rc108C15_timelimit=105_subproblem=1.txt",
+  "inst": "rc108C15",
+  "K": 3,
+  "cost": 3370.25,
+  "reported": 3370.25,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/rc108C5_timelimit=105_subproblem=1.txt",
+  "inst": "rc108C5",
+  "K": 2,
+  "cost": 2253.93,
+  "reported": 2253.93,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/rc108_21_timelimit=630_subproblem=1.txt",
+  "inst": "rc108_21",
+  "K": 11,
+  "cost": 12140.28,
+  "reported": 12140.28,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/rc201C10_timelimit=105_subproblem=1.txt",
+  "inst": "rc201C10",
+  "K": 1,
+  "cost": 1412.86,
+  "reported": 1412.86,
+  "ok_reported": false,
+  "ok_recomputed": true,
+  "errors": [
+   "ruta 0: {'load': 0.0, 'tw': 0.0, 'bat': 0.012673702107449003, 'batmax': 0.0, 'struct': []}"
+  ]
+ },
+ {
+  "file": "solution/akb/rc201_21_timelimit=630_subproblem=1.txt",
+  "inst": "rc201_21",
+  "K": 4,
+  "cost": 5444.9,
+  "reported": 5444.9,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/rc202C15_timelimit=105_subproblem=1.txt",
+  "inst": "rc202C15",
+  "K": 2,
+  "cost": 2394.39,
+  "reported": 2394.39,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/rc202_21_timelimit=630_subproblem=1.txt",
+  "inst": "rc202_21",
+  "K": 4,
+  "cost": 5240.4,
+  "reported": 5240.4,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/rc203_21_timelimit=630_subproblem=1.txt",
+  "inst": "rc203_21",
+  "K": 3,
+  "cost": 4078.55,
+  "reported": 4078.55,
+  "ok_reported": false,
+  "ok_recomputed": true,
+  "errors": [
+   "ruta 1: {'load': 0.0, 'tw': 0.000968650139697047, 'bat': 0.0, 'batmax': 0.0, 'struct': []}"
+  ]
+ },
+ {
+  "file": "solution/akb/rc204C15_timelimit=105_subproblem=1.txt",
+  "inst": "rc204C15",
+  "K": 1,
+  "cost": 1382.22,
+  "reported": 1382.22,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/rc204C5_timelimit=105_subproblem=1.txt",
+  "inst": "rc204C5",
+  "K": 1,
+  "cost": 1176.39,
+  "reported": 1176.39,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/rc204_21_timelimit=630_subproblem=1.txt",
+  "inst": "rc204_21",
+  "K": 3,
+  "cost": 3892.97,
+  "reported": 3892.97,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/rc205C10_timelimit=105_subproblem=1.txt",
+  "inst": "rc205C10",
+  "K": 2,
+  "cost": 2325.98,
+  "reported": 2325.98,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/rc205_21_timelimit=630_subproblem=1.txt",
+  "inst": "rc205_21",
+  "K": 4,
+  "cost": 5149.13,
+  "reported": 5149.13,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/rc206_21_timelimit=630_subproblem=1.txt",
+  "inst": "rc206_21",
+  "K": 3,
+  "cost": 4200.69,
+  "reported": 4200.69,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/rc207_21_timelimit=630_subproblem=1.txt",
+  "inst": "rc207_21",
+  "K": 3,
+  "cost": 3979.65,
+  "reported": 3979.65,
+  "ok_reported": false,
+  "ok_recomputed": true,
+  "errors": [
+   "ruta 1: {'load': 0.0, 'tw': 0.0005485178228354926, 'bat': 0.0, 'batmax': 0.0, 'struct': []}"
+  ]
+ },
+ {
+  "file": "solution/akb/rc208C5_timelimit=105_subproblem=1.txt",
+  "inst": "rc208C5",
+  "K": 1,
+  "cost": 1167.98,
+  "reported": 1167.98,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/akb/rc208_21_timelimit=630_subproblem=1.txt",
+  "inst": "rc208_21",
+  "K": 3,
+  "cost": 3838.78,
+  "reported": 3838.78,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/1000_1_timelimit=32400_subproblem=1.txt",
+  "inst": "1000_1",
+  "K": 178,
+  "cost": 260502.17,
+  "reported": 260502.17,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/1000_1_timelimit=32400_subproblem=10.txt",
+  "inst": "1000_1",
+  "K": 178,
+  "cost": 256626.16,
+  "reported": 256626.16,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/1000_2_timelimit=32400_subproblem=1.txt",
+  "inst": "1000_2",
+  "K": 182,
+  "cost": 275972.37,
+  "reported": 275972.37,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/1000_2_timelimit=32400_subproblem=10.txt",
+  "inst": "1000_2",
+  "K": 181,
+  "cost": 270788.78,
+  "reported": 270788.78,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/1000_3_timelimit=32400_subproblem=1.txt",
+  "inst": "1000_3",
+  "K": 184,
+  "cost": 256229.79,
+  "reported": 256229.79,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/1000_3_timelimit=32400_subproblem=10.txt",
+  "inst": "1000_3",
+  "K": 181,
+  "cost": 250802.03,
+  "reported": 250802.03,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/1000_4_timelimit=32400_subproblem=1.txt",
+  "inst": "1000_4",
+  "K": 169,
+  "cost": 242662.53,
+  "reported": 242662.53,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/1000_4_timelimit=32400_subproblem=10.txt",
+  "inst": "1000_4",
+  "K": 167,
+  "cost": 238562.78,
+  "reported": 238562.78,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/200_1_timelimit=3600_subproblem=1.txt",
+  "inst": "200_1",
+  "K": 44,
+  "cost": 70740.9,
+  "reported": 70740.9,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/200_1_timelimit=3600_subproblem=2.txt",
+  "inst": "200_1",
+  "K": 44,
+  "cost": 70440.57,
+  "reported": 70440.57,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/200_2_timelimit=3600_subproblem=1.txt",
+  "inst": "200_2",
+  "K": 39,
+  "cost": 59389.7,
+  "reported": 59389.7,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/200_2_timelimit=3600_subproblem=2.txt",
+  "inst": "200_2",
+  "K": 38,
+  "cost": 58530.22,
+  "reported": 58530.22,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/200_3_timelimit=3600_subproblem=1.txt",
+  "inst": "200_3",
+  "K": 42,
+  "cost": 65201.82,
+  "reported": 65201.82,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/200_3_timelimit=3600_subproblem=2.txt",
+  "inst": "200_3",
+  "K": 43,
+  "cost": 65812.71,
+  "reported": 65812.71,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/200_4_timelimit=3600_subproblem=1.txt",
+  "inst": "200_4",
+  "K": 39,
+  "cost": 60747.28,
+  "reported": 60747.28,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/200_4_timelimit=3600_subproblem=2.txt",
+  "inst": "200_4",
+  "K": 39,
+  "cost": 60815.01,
+  "reported": 60815.01,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/400_1_timelimit=10800_subproblem=1.txt",
+  "inst": "400_1",
+  "K": 78,
+  "cost": 114537.34,
+  "reported": 114537.34,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/400_1_timelimit=10800_subproblem=4.txt",
+  "inst": "400_1",
+  "K": 78,
+  "cost": 114489.28,
+  "reported": 114489.28,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/400_2_timelimit=10800_subproblem=1.txt",
+  "inst": "400_2",
+  "K": 76,
+  "cost": 115303.21,
+  "reported": 115303.21,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/400_2_timelimit=10800_subproblem=4.txt",
+  "inst": "400_2",
+  "K": 77,
+  "cost": 114668.85,
+  "reported": 114668.85,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/400_3_timelimit=10800_subproblem=1.txt",
+  "inst": "400_3",
+  "K": 76,
+  "cost": 106951.59,
+  "reported": 106951.59,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/400_3_timelimit=10800_subproblem=4.txt",
+  "inst": "400_3",
+  "K": 76,
+  "cost": 107600.7,
+  "reported": 107600.7,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/400_4_timelimit=10800_subproblem=1.txt",
+  "inst": "400_4",
+  "K": 81,
+  "cost": 126613.16,
+  "reported": 126613.16,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/400_4_timelimit=10800_subproblem=4.txt",
+  "inst": "400_4",
+  "K": 82,
+  "cost": 126927.71,
+  "reported": 126927.71,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/600_1_timelimit=18000_subproblem=1.txt",
+  "inst": "600_1",
+  "K": 112,
+  "cost": 166524.71,
+  "reported": 166524.71,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/600_1_timelimit=18000_subproblem=6.txt",
+  "inst": "600_1",
+  "K": 112,
+  "cost": 166113.91,
+  "reported": 166113.91,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/600_2_timelimit=18000_subproblem=1.txt",
+  "inst": "600_2",
+  "K": 113,
+  "cost": 171996.76,
+  "reported": 171996.76,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/600_2_timelimit=18000_subproblem=6.txt",
+  "inst": "600_2",
+  "K": 113,
+  "cost": 170362.24,
+  "reported": 170362.24,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/600_3_timelimit=18000_subproblem=1.txt",
+  "inst": "600_3",
+  "K": 110,
+  "cost": 151879.4,
+  "reported": 151879.4,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/600_3_timelimit=18000_subproblem=6.txt",
+  "inst": "600_3",
+  "K": 109,
+  "cost": 151185.33,
+  "reported": 151185.33,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/600_4_timelimit=18000_subproblem=1.txt",
+  "inst": "600_4",
+  "K": 103,
+  "cost": 149893.97,
+  "reported": 149893.97,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/600_4_timelimit=18000_subproblem=6.txt",
+  "inst": "600_4",
+  "K": 103,
+  "cost": 148729.43,
+  "reported": 148729.43,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/800_1_timelimit=25200_subproblem=1.txt",
+  "inst": "800_1",
+  "K": 147,
+  "cost": 216194.15,
+  "reported": 216194.15,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/800_1_timelimit=25200_subproblem=8.txt",
+  "inst": "800_1",
+  "K": 146,
+  "cost": 213065.47,
+  "reported": 213065.47,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/800_2_timelimit=25200_subproblem=1.txt",
+  "inst": "800_2",
+  "K": 148,
+  "cost": 226218.76,
+  "reported": 226218.76,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/800_2_timelimit=25200_subproblem=8.txt",
+  "inst": "800_2",
+  "K": 147,
+  "cost": 222333.51,
+  "reported": 222333.51,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/800_3_timelimit=25200_subproblem=1.txt",
+  "inst": "800_3",
+  "K": 147,
+  "cost": 205429.64,
+  "reported": 205429.64,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/800_3_timelimit=25200_subproblem=8.txt",
+  "inst": "800_3",
+  "K": 146,
+  "cost": 203751.04,
+  "reported": 203751.04,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/800_4_timelimit=25200_subproblem=1.txt",
+  "inst": "800_4",
+  "K": 135,
+  "cost": 194738.56,
+  "reported": 194738.56,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/large_timelimit/800_4_timelimit=25200_subproblem=8.txt",
+  "inst": "800_4",
+  "K": 134,
+  "cost": 192848.13,
+  "reported": 192848.13,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/1000_1_timelimit=16200_subproblem=1.txt",
+  "inst": "1000_1",
+  "K": 179,
+  "cost": 261338.9,
+  "reported": 261338.9,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/1000_1_timelimit=16200_subproblem=10.txt",
+  "inst": "1000_1",
+  "K": 178,
+  "cost": 257410.81,
+  "reported": 257410.81,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/1000_2_timelimit=16200_subproblem=1.txt",
+  "inst": "1000_2",
+  "K": 183,
+  "cost": 276597.69,
+  "reported": 276597.69,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/1000_2_timelimit=16200_subproblem=10.txt",
+  "inst": "1000_2",
+  "K": 184,
+  "cost": 274079.42,
+  "reported": 274079.42,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/1000_3_timelimit=16200_subproblem=1.txt",
+  "inst": "1000_3",
+  "K": 184,
+  "cost": 256229.79,
+  "reported": 256229.79,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/1000_3_timelimit=16200_subproblem=10.txt",
+  "inst": "1000_3",
+  "K": 182,
+  "cost": 252772.63,
+  "reported": 252772.63,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/1000_4_timelimit=16200_subproblem=1.txt",
+  "inst": "1000_4",
+  "K": 169,
+  "cost": 243354.91,
+  "reported": 243354.91,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/1000_4_timelimit=16200_subproblem=10.txt",
+  "inst": "1000_4",
+  "K": 168,
+  "cost": 240559.58,
+  "reported": 240559.58,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/200_1_timelimit=1800_subproblem=1.txt",
+  "inst": "200_1",
+  "K": 44,
+  "cost": 71043.42,
+  "reported": 71043.42,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/200_1_timelimit=1800_subproblem=2.txt",
+  "inst": "200_1",
+  "K": 44,
+  "cost": 70979.75,
+  "reported": 70979.75,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/200_2_timelimit=1800_subproblem=1.txt",
+  "inst": "200_2",
+  "K": 39,
+  "cost": 59660.84,
+  "reported": 59660.84,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/200_2_timelimit=1800_subproblem=2.txt",
+  "inst": "200_2",
+  "K": 39,
+  "cost": 59460.27,
+  "reported": 59460.27,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/200_3_timelimit=1800_subproblem=1.txt",
+  "inst": "200_3",
+  "K": 44,
+  "cost": 66634.23,
+  "reported": 66634.23,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/200_3_timelimit=1800_subproblem=2.txt",
+  "inst": "200_3",
+  "K": 43,
+  "cost": 66254.27,
+  "reported": 66254.27,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/200_4_timelimit=1800_subproblem=1.txt",
+  "inst": "200_4",
+  "K": 39,
+  "cost": 60988.3,
+  "reported": 60988.3,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/200_4_timelimit=1800_subproblem=2.txt",
+  "inst": "200_4",
+  "K": 39,
+  "cost": 60941.6,
+  "reported": 60941.6,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/400_1_timelimit=5400_subproblem=1.txt",
+  "inst": "400_1",
+  "K": 79,
+  "cost": 116029.37,
+  "reported": 116029.37,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/400_1_timelimit=5400_subproblem=4.txt",
+  "inst": "400_1",
+  "K": 79,
+  "cost": 115981.66,
+  "reported": 115981.66,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/400_2_timelimit=5400_subproblem=1.txt",
+  "inst": "400_2",
+  "K": 77,
+  "cost": 116527.33,
+  "reported": 116527.33,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/400_2_timelimit=5400_subproblem=4.txt",
+  "inst": "400_2",
+  "K": 77,
+  "cost": 116205.05,
+  "reported": 116205.05,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/400_3_timelimit=5400_subproblem=1.txt",
+  "inst": "400_3",
+  "K": 76,
+  "cost": 109030.69,
+  "reported": 109030.69,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/400_3_timelimit=5400_subproblem=4.txt",
+  "inst": "400_3",
+  "K": 76,
+  "cost": 108441.53,
+  "reported": 108441.53,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/400_4_timelimit=5400_subproblem=1.txt",
+  "inst": "400_4",
+  "K": 83,
+  "cost": 128988.11,
+  "reported": 128988.11,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/400_4_timelimit=5400_subproblem=4.txt",
+  "inst": "400_4",
+  "K": 83,
+  "cost": 128894.04,
+  "reported": 128894.04,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/600_1_timelimit=9000_subproblem=1.txt",
+  "inst": "600_1",
+  "K": 112,
+  "cost": 167369.71,
+  "reported": 167369.71,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/600_1_timelimit=9000_subproblem=6.txt",
+  "inst": "600_1",
+  "K": 112,
+  "cost": 167297.7,
+  "reported": 167297.7,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/600_2_timelimit=9000_subproblem=1.txt",
+  "inst": "600_2",
+  "K": 113,
+  "cost": 171996.76,
+  "reported": 171996.76,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/600_2_timelimit=9000_subproblem=6.txt",
+  "inst": "600_2",
+  "K": 113,
+  "cost": 171512.97,
+  "reported": 171512.97,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/600_3_timelimit=9000_subproblem=1.txt",
+  "inst": "600_3",
+  "K": 112,
+  "cost": 154336.98,
+  "reported": 154336.98,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/600_3_timelimit=9000_subproblem=6.txt",
+  "inst": "600_3",
+  "K": 111,
+  "cost": 153092.64,
+  "reported": 153092.64,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/600_4_timelimit=9000_subproblem=1.txt",
+  "inst": "600_4",
+  "K": 104,
+  "cost": 150513.45,
+  "reported": 150513.45,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/600_4_timelimit=9000_subproblem=6.txt",
+  "inst": "600_4",
+  "K": 103,
+  "cost": 150123.89,
+  "reported": 150123.89,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/800_1_timelimit=12600_subproblem=1.txt",
+  "inst": "800_1",
+  "K": 147,
+  "cost": 216364.67,
+  "reported": 216364.67,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/800_1_timelimit=12600_subproblem=8.txt",
+  "inst": "800_1",
+  "K": 146,
+  "cost": 214710.04,
+  "reported": 214710.04,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/800_2_timelimit=12600_subproblem=1.txt",
+  "inst": "800_2",
+  "K": 148,
+  "cost": 226218.76,
+  "reported": 226218.76,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/800_2_timelimit=12600_subproblem=8.txt",
+  "inst": "800_2",
+  "K": 149,
+  "cost": 223610.37,
+  "reported": 223610.37,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/800_3_timelimit=12600_subproblem=1.txt",
+  "inst": "800_3",
+  "K": 148,
+  "cost": 206772.88,
+  "reported": 206772.88,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/800_3_timelimit=12600_subproblem=8.txt",
+  "inst": "800_3",
+  "K": 147,
+  "cost": 205215.92,
+  "reported": 205215.92,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/800_4_timelimit=12600_subproblem=1.txt",
+  "inst": "800_4",
+  "K": 136,
+  "cost": 196076.58,
+  "reported": 196076.58,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ },
+ {
+  "file": "solution/jd/small_timelimit/800_4_timelimit=12600_subproblem=8.txt",
+  "inst": "800_4",
+  "K": 134,
+  "cost": 194004.95,
+  "reported": 194004.95,
+  "ok_reported": true,
+  "ok_recomputed": true,
+  "errors": []
+ }
+]
