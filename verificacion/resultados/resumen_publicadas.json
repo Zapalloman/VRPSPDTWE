@@ -724,32 +724,32 @@
  "inversion": {
   "5 clientes": {
    "rutas": 17,
-   "dif_media_pct": 0.8040262467967552,
-   "dif_max_pct": 2.25473654554204,
+   "dif_media_pct": 0.542716585261465,
+   "dif_max_pct": 1.5224265499138279,
    "rev_factible": 2,
    "rev_mejor": 0,
    "ahorro_medio_pct": 0.0
   },
   "10 clientes": {
    "rutas": 25,
-   "dif_media_pct": 0.7848728836234655,
-   "dif_max_pct": 2.6612868387663116,
-   "rev_factible": 3,
-   "rev_mejor": 1,
-   "ahorro_medio_pct": 1.1457847038340383
+   "dif_media_pct": 0.5311707286363911,
+   "dif_max_pct": 1.8233380906091547,
+   "rev_factible": 4,
+   "rev_mejor": 2,
+   "ahorro_medio_pct": 0.4255508702791788
   },
   "15 clientes": {
    "rutas": 32,
-   "dif_media_pct": 0.8391442792348838,
-   "dif_max_pct": 3.6550216028421296,
+   "dif_media_pct": 0.5689157744088891,
+   "dif_max_pct": 2.5125383189951442,
    "rev_factible": 1,
    "rev_mejor": 0,
    "ahorro_medio_pct": 0.0
   },
   "100 clientes": {
    "rutas": 435,
-   "dif_media_pct": 1.2759106325891345,
-   "dif_max_pct": 5.634894409632149,
+   "dif_media_pct": 0.878239454128575,
+   "dif_max_pct": 3.9210989960851266,
    "rev_factible": 1,
    "rev_mejor": 0,
    "ahorro_medio_pct": 0.0

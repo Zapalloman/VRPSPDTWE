@@ -31,7 +31,7 @@ for rho in (0.0, 0.5):
             out["tabla"].append(row)
 # efecto de invertir la ruta (misma distancia), beta=0.3, rho=0
 for gname, n in groups.items():
-    rs = [r for v in res.values() if v["n"] == n for r in v["analysis"]["b0.3_r0.0"] if r["n_cust"] >= 2]
+    rs = [r for v in res.values() if v["n"] == n for r in v["analysis"]["b0.2_r0.0"] if r["n_cust"] >= 2]
     diffs = [100 * abs(r["energy"] - r["energy_rev"]) / r["energy"] for r in rs]
     better = [r for r in rs if r["feasible"] and r["rev_feasible"] and r["energy_rev"] < r["energy"] - 1e-9]
     out["inversion"][gname] = dict(rutas=len(rs), dif_media_pct=st.mean(diffs), dif_max_pct=max(diffs),
