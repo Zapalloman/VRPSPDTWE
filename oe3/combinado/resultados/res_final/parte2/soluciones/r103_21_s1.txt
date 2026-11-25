@@ -1,0 +1,16 @@
+Details of the solution:
+route 0, node_num 7, cost 58.105429, nodes: 0 89 7 52 69 27 0
+route 1, node_num 11, cost 66.510202, nodes: 0 53 58 40 21 72 73 2 57 116 0
+route 2, node_num 12, cost 118.821495, nodes: 0 119 39 56 67 23 118 75 74 22 41 0
+route 3, node_num 9, cost 82.212538, nodes: 0 5 61 112 16 86 44 37 0
+route 4, node_num 13, cost 107.631313, nodes: 0 114 97 14 38 43 115 15 115 42 87 13 0
+route 5, node_num 11, cost 118.284436, nodes: 0 50 9 105 65 35 105 71 105 20 0
+route 6, node_num 11, cost 94.834669, nodes: 0 60 83 17 84 45 111 48 82 18 0
+route 7, node_num 11, cost 106.541551, nodes: 0 106 10 32 90 63 64 11 108 88 0
+route 8, node_num 15, cost 64.191533, nodes: 0 6 96 59 98 100 91 85 93 92 99 114 95 94 0
+route 9, node_num 12, cost 112.787904, nodes: 0 110 8 46 36 49 109 47 19 62 31 0
+route 10, node_num 11, cost 124.032742, nodes: 0 104 51 66 105 78 34 104 30 70 0
+route 11, node_num 13, cost 108.921213, nodes: 0 24 102 68 80 54 4 120 25 55 12 26 0
+route 12, node_num 12, cost 87.099509, nodes: 0 1 33 81 79 29 102 77 3 76 28 0
+vehicle (route) number: 13
+Total cost: 14249.97

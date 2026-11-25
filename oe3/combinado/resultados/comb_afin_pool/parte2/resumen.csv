@@ -1,0 +1,5 @@
+metodo,instancia,corridas,factibles,costo_medio,costo_min,K_medio,tiempo_medio
+comb_afin_pool,c202_21,3,3,4641.07,4641.07,4,108.1
+comb_afin_pool,r108_21,3,3,12044.41,12039.44,11,119.4
+comb_afin_pool,rc102_21,3,3,15528.22,15527.05,14,113.3
+comb_afin_pool,rc206_21,3,3,4229.34,4215.58,3,114.9

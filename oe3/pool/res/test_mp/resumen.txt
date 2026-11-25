@@ -1,0 +1,1 @@
+rc106_21 s1 {'hma': 15443.66, 'sp': 27556.34} elegido=hma lineas_pool=88862 t=63.2

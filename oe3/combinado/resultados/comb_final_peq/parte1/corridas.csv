@@ -1,0 +1,5 @@
+metodo,instancia,n_clientes,semilla,tiempo_limite,factible,K,distancia,costo_TC,energia,costo_informado,tiempo_pared,tiempo_cpu,codigo_salida,errores
+comb_final_peq,c104C10,10,1,105,1,2,273.9312,2273.9312,287.8884,2273.93,84.46,83.62,0,
+comb_final_peq,r104C5,5,1,105,1,2,136.6897,2136.6897,139.3295,2136.69,85.26,84.29,0,
+comb_final_peq,r105C15,15,1,105,1,4,352.7163,4352.7163,364.5195,4352.72,84.32,83.5,0,
+comb_final_peq,rc201C10,10,1,105,1,2,323.4973,2323.4973,326.6033,2323.5,84.76,83.76,0,

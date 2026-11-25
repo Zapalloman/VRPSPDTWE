@@ -1,0 +1,16 @@
+c103_21 s=2 factible=1 K=10 TC=10965.3113 t=123.05s 
+c107_21 s=2 factible=1 K=10 TC=11047.5477 t=121.41s 
+c201_21 s=2 factible=1 K=4 TC=4642.8365 t=117.54s 
+c205_21 s=2 factible=1 K=4 TC=4639.8794 t=121.08s 
+r101_21 s=2 factible=1 K=18 TC=19608.9269 t=121.23s 
+r105_21 s=2 factible=1 K=15 TC=16372.9835 t=121.53s 
+r109_21 s=2 factible=1 K=13 TC=14197.9379 t=124.07s 
+r112_21 s=2 factible=1 K=12 TC=13034.0936 t=122.05s 
+r204_21 s=2 factible=1 K=3 TC=3738.1883 t=125.57s 
+r207_21 s=2 factible=1 K=3 TC=3842.5985 t=126.75s 
+r211_21 s=2 factible=1 K=3 TC=3794.9429 t=128.9s 
+rc104_21 s=2 factible=1 K=11 TC=12206.4415 t=122.25s 
+rc108_21 s=2 factible=1 K=11 TC=12230.7287 t=122.21s 
+rc204_21 s=2 factible=1 K=3 TC=3905.6562 t=127.91s 
+rc208_21 s=2 factible=1 K=3 TC=3887.8188 t=128.15s 
+resumen en /home/user/oe3/combinado/resultados/res_hma_ld_llenar/parte1/resumen.md

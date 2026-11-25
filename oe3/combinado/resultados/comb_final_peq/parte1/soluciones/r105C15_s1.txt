@@ -1,0 +1,7 @@
+Details of the solution:
+route 0, node_num 9, cost 112.090939, nodes: 0 19 12 15 5 19 14 8 0
+route 1, node_num 6, cost 83.800119, nodes: 0 7 1 20 2 0
+route 2, node_num 9, cost 117.689159, nodes: 0 9 18 13 11 17 6 10 0
+route 3, node_num 4, cost 39.136088, nodes: 0 3 4 0
+vehicle (route) number: 4
+Total cost: 4352.72

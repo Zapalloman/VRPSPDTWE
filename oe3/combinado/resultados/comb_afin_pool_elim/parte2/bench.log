@@ -1,0 +1,13 @@
+c202_21 s=1 factible=1 K=4 TC=4641.0709 t=107.54s 
+c202_21 s=2 factible=1 K=4 TC=4641.0709 t=105.43s 
+c202_21 s=3 factible=1 K=4 TC=4641.0709 t=111.9s 
+r108_21 s=1 factible=1 K=11 TC=12039.4366 t=119.34s 
+r108_21 s=2 factible=1 K=11 TC=12044.5373 t=119.32s 
+r108_21 s=3 factible=1 K=11 TC=12061.0943 t=119.36s 
+rc102_21 s=1 factible=1 K=14 TC=15527.051 t=109.54s 
+rc102_21 s=2 factible=1 K=14 TC=15556.0026 t=119.4s 
+rc102_21 s=3 factible=1 K=14 TC=15527.051 t=114.13s 
+rc206_21 s=1 factible=1 K=3 TC=4211.138 t=115.62s 
+rc206_21 s=2 factible=1 K=3 TC=4215.9801 t=114.44s 
+rc206_21 s=3 factible=1 K=3 TC=4215.8669 t=114.71s 
+resumen en /home/user/oe3/combinado/resultados/comb_afin_pool_elim/parte2/resumen.md

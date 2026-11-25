@@ -1,0 +1,696 @@
+NAME : r202_21
+TYPE : EVRP-TW-SPD
+DIMENSION : 122
+VEHICLES : 25
+DISPATCHINGCOST : 1000
+UNITCOST : 1.0
+CAPACITY : 1000.0
+ELECTRIC_POWER : 238.34
+CONSUMPTION_RATE : 1.0
+RECHARGING_RATE : 0.13
+EDGE_WEIGHT_TYPE : EXPLICIT
+Node number: 122
+Customer number: 100
+Station number: 21
+Avg pick-up/dilvery demand: 6.6300,7.9500
+Starting/end time of DC: 0.0000,1000.0000
+
+afin = 2, afin_max3 = 20000
+Load-dependent consumption: beta = 0.2, rho = 0
+Initial random seed: 1
+Pruning: on
+Write best solution to /tmp/hma_91faj_m0/
+Time limit: 120 seconds
+Runs: 1
+g_1: 20
+Population size: 4
+Insertion for initialization: rcrs
+k_init: 100
+Insertion for crossover: regret
+k_crossover: 100
+Parent selection: circle
+Replacement strategy: one_on_one
+Local search probability: 1.00
+O(1) evaluation: on
+2-opt: on
+2-opt*: on
+or-opt: on
+2-exchange: on
+escape local optima number: 1
+random_removal: off
+related_removal: on
+alpha: 1.000000, relateness norm factor: 1.000000
+Destroy lower ration: 0.100000
+Destroy upper ration: 0.200000
+regret_insertion: on
+greedy_insertion: off
+Random removal and insertion: off
+Station range: 11
+Subproblem num: 1
+Total edges 9900, prune by time window 2263(22.8586%), prune by capacity 0(0.0000%)
+---------------------------------Run 1---------------------------
+Initialization, using rcrs method
+Solution 0, cost 4472.17, m 3
+best cost 4472.17, m 3
+Initialization done.
+already consumed 1.63 sec
+already consumed 1.73 sec
+After local search
+Avg 4176.14, Best 4176.14 / m 3, Worst 4176.14
+already consumed 1.77 sec
+Best solution update: 4176.1416
+After large neighbourhood search
+Avg 4176.14, Best 4176.14 / m 3, Worst 4176.14
+Gen 1 done, no improvement for 1 gens, already consumed 1.77 sec
+already consumed 1.83 sec
+After large neighbourhood search
+Avg 4176.14, Best 4176.14 / m 3, Worst 4176.14
+Gen 2 done, no improvement for 2 gens, already consumed 1.83 sec
+already consumed 1.97 sec
+Best solution update: 4156.1191
+After large neighbourhood search
+Avg 4156.12, Best 4156.12 / m 3, Worst 4156.12
+Gen 3 done, no improvement for 0 gens, already consumed 1.97 sec
+already consumed 2.09 sec
+Best solution update: 4146.2108
+After large neighbourhood search
+Avg 4146.21, Best 4146.21 / m 3, Worst 4146.21
+Gen 4 done, no improvement for 0 gens, already consumed 2.09 sec
+already consumed 2.12 sec
+After large neighbourhood search
+Avg 4146.21, Best 4146.21 / m 3, Worst 4146.21
+Gen 5 done, no improvement for 1 gens, already consumed 2.12 sec
+already consumed 2.20 sec
+After large neighbourhood search
+Avg 4146.21, Best 4146.21 / m 3, Worst 4146.21
+Gen 6 done, no improvement for 2 gens, already consumed 2.20 sec
+already consumed 2.26 sec
+After large neighbourhood search
+Avg 4146.21, Best 4146.21 / m 3, Worst 4146.21
+Gen 7 done, no improvement for 3 gens, already consumed 2.26 sec
+already consumed 2.47 sec
+Best solution update: 4117.0189
+After large neighbourhood search
+Avg 4117.02, Best 4117.02 / m 3, Worst 4117.02
+Gen 8 done, no improvement for 0 gens, already consumed 2.47 sec
+already consumed 2.54 sec
+Best solution update: 4114.3723
+After large neighbourhood search
+Avg 4114.37, Best 4114.37 / m 3, Worst 4114.37
+Gen 9 done, no improvement for 0 gens, already consumed 2.54 sec
+already consumed 2.56 sec
+After large neighbourhood search
+Avg 4114.37, Best 4114.37 / m 3, Worst 4114.37
+Gen 10 done, no improvement for 1 gens, already consumed 2.56 sec
+already consumed 2.59 sec
+After large neighbourhood search
+Avg 4114.37, Best 4114.37 / m 3, Worst 4114.37
+Gen 11 done, no improvement for 2 gens, already consumed 2.59 sec
+already consumed 2.62 sec
+After large neighbourhood search
+Avg 4114.37, Best 4114.37 / m 3, Worst 4114.37
+Gen 12 done, no improvement for 3 gens, already consumed 2.62 sec
+already consumed 2.69 sec
+After large neighbourhood search
+Avg 4114.37, Best 4114.37 / m 3, Worst 4114.37
+Gen 13 done, no improvement for 4 gens, already consumed 2.69 sec
+already consumed 2.74 sec
+After large neighbourhood search
+Avg 4114.37, Best 4114.37 / m 3, Worst 4114.37
+Gen 14 done, no improvement for 5 gens, already consumed 2.74 sec
+already consumed 2.80 sec
+Best solution update: 4112.9496
+After large neighbourhood search
+Avg 4112.95, Best 4112.95 / m 3, Worst 4112.95
+Gen 15 done, no improvement for 0 gens, already consumed 2.80 sec
+already consumed 2.88 sec
+Best solution update: 4105.2630
+After large neighbourhood search
+Avg 4105.26, Best 4105.26 / m 3, Worst 4105.26
+Gen 16 done, no improvement for 0 gens, already consumed 2.88 sec
+already consumed 2.91 sec
+After large neighbourhood search
+Avg 4105.26, Best 4105.26 / m 3, Worst 4105.26
+Gen 17 done, no improvement for 1 gens, already consumed 2.91 sec
+already consumed 2.98 sec
+After large neighbourhood search
+Avg 4105.26, Best 4105.26 / m 3, Worst 4105.26
+Gen 18 done, no improvement for 2 gens, already consumed 2.98 sec
+already consumed 3.00 sec
+After large neighbourhood search
+Avg 4105.26, Best 4105.26 / m 3, Worst 4105.26
+Gen 19 done, no improvement for 3 gens, already consumed 3.00 sec
+already consumed 3.06 sec
+After large neighbourhood search
+Avg 4105.26, Best 4105.26 / m 3, Worst 4105.26
+Gen 20 done, no improvement for 4 gens, already consumed 3.06 sec
+already consumed 3.15 sec
+After large neighbourhood search
+Avg 4105.26, Best 4105.26 / m 3, Worst 4105.26
+Gen 21 done, no improvement for 5 gens, already consumed 3.15 sec
+already consumed 3.19 sec
+After large neighbourhood search
+Avg 4105.26, Best 4105.26 / m 3, Worst 4105.26
+Gen 22 done, no improvement for 6 gens, already consumed 3.19 sec
+already consumed 3.21 sec
+After large neighbourhood search
+Avg 4105.26, Best 4105.26 / m 3, Worst 4105.26
+Gen 23 done, no improvement for 7 gens, already consumed 3.21 sec
+already consumed 3.24 sec
+After large neighbourhood search
+Avg 4105.26, Best 4105.26 / m 3, Worst 4105.26
+Gen 24 done, no improvement for 8 gens, already consumed 3.24 sec
+already consumed 3.27 sec
+After large neighbourhood search
+Avg 4105.26, Best 4105.26 / m 3, Worst 4105.26
+Gen 25 done, no improvement for 9 gens, already consumed 3.27 sec
+already consumed 3.30 sec
+After large neighbourhood search
+Avg 4105.26, Best 4105.26 / m 3, Worst 4105.26
+Gen 26 done, no improvement for 10 gens, already consumed 3.30 sec
+already consumed 3.34 sec
+After large neighbourhood search
+Avg 4105.26, Best 4105.26 / m 3, Worst 4105.26
+Gen 27 done, no improvement for 11 gens, already consumed 3.34 sec
+already consumed 3.37 sec
+After large neighbourhood search
+Avg 4105.26, Best 4105.26 / m 3, Worst 4105.26
+Gen 28 done, no improvement for 12 gens, already consumed 3.37 sec
+already consumed 3.40 sec
+After large neighbourhood search
+Avg 4105.26, Best 4105.26 / m 3, Worst 4105.26
+Gen 29 done, no improvement for 13 gens, already consumed 3.40 sec
+already consumed 3.50 sec
+Best solution update: 4089.2699
+After large neighbourhood search
+Avg 4089.27, Best 4089.27 / m 3, Worst 4089.27
+Gen 30 done, no improvement for 0 gens, already consumed 3.50 sec
+already consumed 3.53 sec
+After large neighbourhood search
+Avg 4089.27, Best 4089.27 / m 3, Worst 4089.27
+Gen 31 done, no improvement for 1 gens, already consumed 3.53 sec
+already consumed 3.56 sec
+After large neighbourhood search
+Avg 4089.27, Best 4089.27 / m 3, Worst 4089.27
+Gen 32 done, no improvement for 2 gens, already consumed 3.56 sec
+already consumed 3.62 sec
+After large neighbourhood search
+Avg 4089.27, Best 4089.27 / m 3, Worst 4089.27
+Gen 33 done, no improvement for 3 gens, already consumed 3.62 sec
+already consumed 3.67 sec
+After large neighbourhood search
+Avg 4089.27, Best 4089.27 / m 3, Worst 4089.27
+Gen 34 done, no improvement for 4 gens, already consumed 3.67 sec
+already consumed 3.69 sec
+After large neighbourhood search
+Avg 4089.27, Best 4089.27 / m 3, Worst 4089.27
+Gen 35 done, no improvement for 5 gens, already consumed 3.69 sec
+already consumed 3.74 sec
+After large neighbourhood search
+Avg 4089.27, Best 4089.27 / m 3, Worst 4089.27
+Gen 36 done, no improvement for 6 gens, already consumed 3.74 sec
+already consumed 3.80 sec
+After large neighbourhood search
+Avg 4089.27, Best 4089.27 / m 3, Worst 4089.27
+Gen 37 done, no improvement for 7 gens, already consumed 3.80 sec
+already consumed 3.89 sec
+Best solution update: 4088.0279
+After large neighbourhood search
+Avg 4088.03, Best 4088.03 / m 3, Worst 4088.03
+Gen 38 done, no improvement for 0 gens, already consumed 3.89 sec
+already consumed 4.02 sec
+Best solution update: 4087.8368
+After large neighbourhood search
+Avg 4087.84, Best 4087.84 / m 3, Worst 4087.84
+Gen 39 done, no improvement for 0 gens, already consumed 4.02 sec
+already consumed 4.08 sec
+Best solution update: 4086.5157
+After large neighbourhood search
+Avg 4086.52, Best 4086.52 / m 3, Worst 4086.52
+Gen 40 done, no improvement for 0 gens, already consumed 4.08 sec
+already consumed 4.20 sec
+Best solution update: 4065.7859
+After large neighbourhood search
+Avg 4065.79, Best 4065.79 / m 3, Worst 4065.79
+Gen 41 done, no improvement for 0 gens, already consumed 4.20 sec
+already consumed 4.30 sec
+After large neighbourhood search
+Avg 4065.79, Best 4065.79 / m 3, Worst 4065.79
+Gen 42 done, no improvement for 1 gens, already consumed 4.30 sec
+already consumed 4.35 sec
+After large neighbourhood search
+Avg 4065.79, Best 4065.79 / m 3, Worst 4065.79
+Gen 43 done, no improvement for 2 gens, already consumed 4.35 sec
+already consumed 4.39 sec
+After large neighbourhood search
+Avg 4065.79, Best 4065.79 / m 3, Worst 4065.79
+Gen 44 done, no improvement for 3 gens, already consumed 4.39 sec
+already consumed 4.48 sec
+After large neighbourhood search
+Avg 4065.79, Best 4065.79 / m 3, Worst 4065.79
+Gen 45 done, no improvement for 4 gens, already consumed 4.48 sec
+already consumed 4.50 sec
+After large neighbourhood search
+Avg 4065.79, Best 4065.79 / m 3, Worst 4065.79
+Gen 46 done, no improvement for 5 gens, already consumed 4.50 sec
+already consumed 4.59 sec
+After large neighbourhood search
+Avg 4065.79, Best 4065.79 / m 3, Worst 4065.79
+Gen 47 done, no improvement for 6 gens, already consumed 4.59 sec
+already consumed 4.64 sec
+After large neighbourhood search
+Avg 4065.79, Best 4065.79 / m 3, Worst 4065.79
+Gen 48 done, no improvement for 7 gens, already consumed 4.64 sec
+already consumed 4.68 sec
+After large neighbourhood search
+Avg 4065.79, Best 4065.79 / m 3, Worst 4065.79
+Gen 49 done, no improvement for 8 gens, already consumed 4.68 sec
+already consumed 4.70 sec
+After large neighbourhood search
+Avg 4065.79, Best 4065.79 / m 3, Worst 4065.79
+Gen 50 done, no improvement for 9 gens, already consumed 4.70 sec
+already consumed 4.75 sec
+After large neighbourhood search
+Avg 4065.79, Best 4065.79 / m 3, Worst 4065.79
+Gen 51 done, no improvement for 10 gens, already consumed 4.75 sec
+already consumed 4.81 sec
+After large neighbourhood search
+Avg 4065.79, Best 4065.79 / m 3, Worst 4065.79
+Gen 52 done, no improvement for 11 gens, already consumed 4.81 sec
+already consumed 4.83 sec
+After large neighbourhood search
+Avg 4065.79, Best 4065.79 / m 3, Worst 4065.79
+Gen 53 done, no improvement for 12 gens, already consumed 4.83 sec
+already consumed 4.88 sec
+After large neighbourhood search
+Avg 4065.79, Best 4065.79 / m 3, Worst 4065.79
+Gen 54 done, no improvement for 13 gens, already consumed 4.88 sec
+already consumed 4.91 sec
+After large neighbourhood search
+Avg 4065.79, Best 4065.79 / m 3, Worst 4065.79
+Gen 55 done, no improvement for 14 gens, already consumed 4.91 sec
+already consumed 4.93 sec
+After large neighbourhood search
+Avg 4065.79, Best 4065.79 / m 3, Worst 4065.79
+Gen 56 done, no improvement for 15 gens, already consumed 4.93 sec
+already consumed 4.96 sec
+After large neighbourhood search
+Avg 4065.79, Best 4065.79 / m 3, Worst 4065.79
+Gen 57 done, no improvement for 16 gens, already consumed 4.96 sec
+already consumed 4.99 sec
+After large neighbourhood search
+Avg 4065.79, Best 4065.79 / m 3, Worst 4065.79
+Gen 58 done, no improvement for 17 gens, already consumed 4.99 sec
+already consumed 5.00 sec
+After large neighbourhood search
+Avg 4065.79, Best 4065.79 / m 3, Worst 4065.79
+Gen 59 done, no improvement for 18 gens, already consumed 5.00 sec
+already consumed 5.02 sec
+After large neighbourhood search
+Avg 4065.79, Best 4065.79 / m 3, Worst 4065.79
+Gen 60 done, no improvement for 19 gens, already consumed 5.02 sec
+already consumed 5.04 sec
+After large neighbourhood search
+Avg 4065.79, Best 4065.79 / m 3, Worst 4065.79
+Gen 61 done, no improvement for 20 gens, already consumed 5.04 sec
+sub_problem_num: 1
+subproblem 1, customer: 100
+Total edges 9900, prune by time window 2263(22.8586%), prune by capacity 0(0.0000%)
+Initialization, using perturb method
+Solution 0, cost 5353.24, m 4
+Solution 1, cost 5445.14, m 4
+Solution 2, cost 4189.09, m 3
+Solution 3, cost 4065.79, m 3
+best cost 4065.79, m 3
+Initialization done.
+already consumed 6.57 sec
+already consumed 6.93 sec
+After local search
+Avg 4587.11, Best 4065.79 / m 3, Worst 5093.99
+Do crossover.
+already consumed 7.56 sec
+Gen: 1. Avg 4331.52, Best 4065.79 / m 3, Worst 5050.34
+Gen 1 done, no improvement for 1 gens, already consumed 8.29 sec
+Do crossover.
+already consumed 8.58 sec
+Gen: 2. Avg 4314.62, Best 4065.79 / m 3, Worst 5050.34
+Gen 2 done, no improvement for 2 gens, already consumed 8.95 sec
+Do crossover.
+already consumed 9.18 sec
+Gen: 3. Avg 4310.36, Best 4065.79 / m 3, Worst 5033.28
+Gen 3 done, no improvement for 3 gens, already consumed 11.47 sec
+Do crossover.
+already consumed 11.74 sec
+Gen: 4. Avg 4308.70, Best 4065.79 / m 3, Worst 5033.28
+Gen 4 done, no improvement for 4 gens, already consumed 13.82 sec
+Do crossover.
+already consumed 14.14 sec
+Gen: 5. Avg 4308.70, Best 4065.79 / m 3, Worst 5033.28
+Gen 5 done, no improvement for 5 gens, already consumed 14.52 sec
+Do crossover.
+already consumed 14.84 sec
+Gen: 6. Avg 4068.31, Best 4065.79 / m 3, Worst 4071.71
+Gen 6 done, no improvement for 6 gens, already consumed 16.83 sec
+Do crossover.
+already consumed 16.95 sec
+Gen: 7. Avg 4068.31, Best 4065.79 / m 3, Worst 4071.71
+Gen 7 done, no improvement for 7 gens, already consumed 17.35 sec
+Do crossover.
+already consumed 17.45 sec
+Gen: 8. Avg 4068.31, Best 4065.79 / m 3, Worst 4071.71
+Gen 8 done, no improvement for 8 gens, already consumed 17.85 sec
+Do crossover.
+already consumed 17.95 sec
+Gen: 9. Avg 4066.82, Best 4065.79 / m 3, Worst 4069.94
+Gen 9 done, no improvement for 9 gens, already consumed 18.31 sec
+Do crossover.
+already consumed 18.38 sec
+Gen: 10. Avg 4066.82, Best 4065.79 / m 3, Worst 4069.94
+Gen 10 done, no improvement for 10 gens, already consumed 18.60 sec
+Do crossover.
+already consumed 18.68 sec
+Gen: 11. Avg 4066.82, Best 4065.79 / m 3, Worst 4069.94
+Gen 11 done, no improvement for 11 gens, already consumed 18.91 sec
+Do crossover.
+already consumed 18.95 sec
+Gen: 12. Avg 4065.79, Best 4065.79 / m 3, Worst 4065.79
+Gen 12 done, no improvement for 12 gens, already consumed 19.18 sec
+Do crossover.
+already consumed 19.18 sec
+Gen: 13. Avg 4065.79, Best 4065.79 / m 3, Worst 4065.79
+Gen 13 done, no improvement for 13 gens, already consumed 19.31 sec
+Do crossover.
+already consumed 19.31 sec
+Gen: 14. Avg 4065.79, Best 4065.79 / m 3, Worst 4065.79
+Gen 14 done, no improvement for 14 gens, already consumed 19.42 sec
+Do crossover.
+already consumed 19.42 sec
+Gen: 15. Avg 4065.79, Best 4065.79 / m 3, Worst 4065.79
+Gen 15 done, no improvement for 15 gens, already consumed 19.60 sec
+Do crossover.
+already consumed 19.60 sec
+Gen: 16. Avg 4065.79, Best 4065.79 / m 3, Worst 4065.79
+Gen 16 done, no improvement for 16 gens, already consumed 19.77 sec
+Do crossover.
+already consumed 19.78 sec
+Best solution update: 4059.0317
+Gen: 17. Avg 4064.10, Best 4059.03 / m 3, Worst 4065.79
+Gen 17 done, no improvement for 0 gens, already consumed 19.98 sec
+Do crossover.
+already consumed 20.02 sec
+Gen: 18. Avg 4062.41, Best 4059.03 / m 3, Worst 4065.79
+Gen 18 done, no improvement for 1 gens, already consumed 20.19 sec
+Do crossover.
+already consumed 20.23 sec
+Gen: 19. Avg 4060.72, Best 4059.03 / m 3, Worst 4065.79
+Gen 19 done, no improvement for 2 gens, already consumed 20.44 sec
+Do crossover.
+already consumed 20.44 sec
+Gen: 20. Avg 4060.72, Best 4059.03 / m 3, Worst 4065.79
+Gen 20 done, no improvement for 3 gens, already consumed 20.55 sec
+Do crossover.
+already consumed 20.58 sec
+Gen: 21. Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 21 done, no improvement for 4 gens, already consumed 20.91 sec
+Do crossover.
+already consumed 20.91 sec
+Gen: 22. Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 22 done, no improvement for 5 gens, already consumed 21.23 sec
+Do crossover.
+already consumed 21.23 sec
+Gen: 23. Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 23 done, no improvement for 6 gens, already consumed 21.36 sec
+Do crossover.
+already consumed 21.36 sec
+Gen: 24. Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 24 done, no improvement for 7 gens, already consumed 21.52 sec
+Do crossover.
+already consumed 21.52 sec
+Gen: 25. Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 25 done, no improvement for 8 gens, already consumed 21.63 sec
+Do crossover.
+already consumed 21.63 sec
+Gen: 26. Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 26 done, no improvement for 9 gens, already consumed 21.75 sec
+Do crossover.
+already consumed 21.75 sec
+Gen: 27. Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 27 done, no improvement for 10 gens, already consumed 22.08 sec
+Do crossover.
+already consumed 22.08 sec
+Gen: 28. Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 28 done, no improvement for 11 gens, already consumed 22.23 sec
+Do crossover.
+already consumed 22.23 sec
+Gen: 29. Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 29 done, no improvement for 12 gens, already consumed 22.35 sec
+Do crossover.
+already consumed 22.35 sec
+Gen: 30. Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 30 done, no improvement for 13 gens, already consumed 22.47 sec
+Do crossover.
+already consumed 22.47 sec
+Gen: 31. Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 31 done, no improvement for 14 gens, already consumed 22.65 sec
+Do crossover.
+already consumed 22.65 sec
+Gen: 32. Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 32 done, no improvement for 15 gens, already consumed 22.89 sec
+Do crossover.
+already consumed 22.89 sec
+Gen: 33. Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 33 done, no improvement for 16 gens, already consumed 23.12 sec
+Do crossover.
+already consumed 23.12 sec
+Gen: 34. Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 34 done, no improvement for 17 gens, already consumed 23.27 sec
+Do crossover.
+already consumed 23.27 sec
+Gen: 35. Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 35 done, no improvement for 18 gens, already consumed 23.43 sec
+Do crossover.
+already consumed 23.43 sec
+Gen: 36. Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 36 done, no improvement for 19 gens, already consumed 23.59 sec
+Do crossover.
+already consumed 23.59 sec
+Gen: 37. Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 37 done, no improvement for 20 gens, already consumed 23.73 sec
+Do crossover.
+already consumed 23.73 sec
+Gen: 38. Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 38 done, no improvement for 21 gens, already consumed 23.88 sec
+Run 1 finishes
+Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+4065.79, 4059.03, 4059.03
+Decomposition done, already consumed 23.88 sec
+After decomposition
+Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+already consumed 23.88 sec
+Best solution update: 4059.0317
+already consumed 23.91 sec
+After local search
+Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+already consumed 23.91 sec
+already consumed 24.01 sec
+After large neighbourhood search
+Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 62 done, no improvement for 0 gens, already consumed 24.01 sec
+already consumed 24.05 sec
+After large neighbourhood search
+Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 63 done, no improvement for 1 gens, already consumed 24.05 sec
+already consumed 24.08 sec
+After large neighbourhood search
+Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 64 done, no improvement for 2 gens, already consumed 24.08 sec
+already consumed 24.10 sec
+After large neighbourhood search
+Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 65 done, no improvement for 3 gens, already consumed 24.10 sec
+already consumed 24.13 sec
+After large neighbourhood search
+Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 66 done, no improvement for 4 gens, already consumed 24.13 sec
+already consumed 24.16 sec
+After large neighbourhood search
+Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 67 done, no improvement for 5 gens, already consumed 24.16 sec
+already consumed 24.19 sec
+After large neighbourhood search
+Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 68 done, no improvement for 6 gens, already consumed 24.19 sec
+already consumed 24.21 sec
+After large neighbourhood search
+Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 69 done, no improvement for 7 gens, already consumed 24.21 sec
+already consumed 24.23 sec
+After large neighbourhood search
+Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 70 done, no improvement for 8 gens, already consumed 24.23 sec
+already consumed 24.27 sec
+After large neighbourhood search
+Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 71 done, no improvement for 9 gens, already consumed 24.27 sec
+already consumed 24.33 sec
+After large neighbourhood search
+Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 72 done, no improvement for 10 gens, already consumed 24.33 sec
+already consumed 24.35 sec
+After large neighbourhood search
+Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 73 done, no improvement for 11 gens, already consumed 24.35 sec
+already consumed 24.37 sec
+After large neighbourhood search
+Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 74 done, no improvement for 12 gens, already consumed 24.37 sec
+already consumed 24.39 sec
+After large neighbourhood search
+Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 75 done, no improvement for 13 gens, already consumed 24.39 sec
+already consumed 24.44 sec
+After large neighbourhood search
+Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 76 done, no improvement for 14 gens, already consumed 24.44 sec
+already consumed 24.49 sec
+After large neighbourhood search
+Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 77 done, no improvement for 15 gens, already consumed 24.49 sec
+already consumed 24.51 sec
+After large neighbourhood search
+Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 78 done, no improvement for 16 gens, already consumed 24.51 sec
+already consumed 24.53 sec
+After large neighbourhood search
+Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 79 done, no improvement for 17 gens, already consumed 24.53 sec
+already consumed 24.54 sec
+After large neighbourhood search
+Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 80 done, no improvement for 18 gens, already consumed 24.54 sec
+already consumed 24.58 sec
+After large neighbourhood search
+Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 81 done, no improvement for 19 gens, already consumed 24.58 sec
+already consumed 24.59 sec
+After large neighbourhood search
+Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 82 done, no improvement for 20 gens, already consumed 24.59 sec
+sub_problem_num: 1
+subproblem 1, customer: 100
+Total edges 9900, prune by time window 2263(22.8586%), prune by capacity 0(0.0000%)
+Initialization, using perturb method
+Solution 0, cost 4059.03, m 3
+Solution 1, cost 5461.32, m 4
+Solution 2, cost 5508.01, m 4
+Solution 3, cost 4091.83, m 3
+best cost 4059.03, m 3
+Initialization done.
+already consumed 26.16 sec
+already consumed 28.13 sec
+After local search
+Avg 4581.03, Best 4059.03 / m 3, Worst 5103.69
+Do crossover.
+already consumed 28.67 sec
+Gen: 1. Avg 4571.06, Best 4059.03 / m 3, Worst 5081.70
+Gen 1 done, no improvement for 1 gens, already consumed 32.36 sec
+Do crossover.
+already consumed 32.61 sec
+Gen: 2. Avg 4342.49, Best 4059.03 / m 3, Worst 5081.70
+Gen 2 done, no improvement for 2 gens, already consumed 33.48 sec
+Do crossover.
+already consumed 33.72 sec
+Gen: 3. Avg 4328.86, Best 4059.03 / m 3, Worst 5051.47
+Gen 3 done, no improvement for 3 gens, already consumed 35.10 sec
+Do crossover.
+already consumed 35.24 sec
+Gen: 4. Avg 4325.45, Best 4059.03 / m 3, Worst 5037.82
+Gen 4 done, no improvement for 4 gens, already consumed 37.22 sec
+Do crossover.
+already consumed 37.62 sec
+Gen: 5. Avg 4325.45, Best 4059.03 / m 3, Worst 5037.82
+Gen 5 done, no improvement for 5 gens, already consumed 39.91 sec
+Do crossover.
+already consumed 40.20 sec
+Gen: 6. Avg 4325.45, Best 4059.03 / m 3, Worst 5037.82
+Gen 6 done, no improvement for 6 gens, already consumed 40.60 sec
+Do crossover.
+already consumed 41.01 sec
+Gen: 7. Avg 4325.45, Best 4059.03 / m 3, Worst 5037.82
+Gen 7 done, no improvement for 7 gens, already consumed 44.08 sec
+Do crossover.
+already consumed 44.53 sec
+Gen: 8. Avg 4325.45, Best 4059.03 / m 3, Worst 5037.82
+Gen 8 done, no improvement for 8 gens, already consumed 46.73 sec
+Do crossover.
+already consumed 47.02 sec
+Gen: 9. Avg 4325.45, Best 4059.03 / m 3, Worst 5037.82
+Gen 9 done, no improvement for 9 gens, already consumed 47.61 sec
+Do crossover.
+already consumed 47.83 sec
+Gen: 10. Avg 4325.45, Best 4059.03 / m 3, Worst 5037.82
+Gen 10 done, no improvement for 10 gens, already consumed 49.81 sec
+Do crossover.
+already consumed 49.93 sec
+Gen: 11. Avg 4325.23, Best 4059.03 / m 3, Worst 5036.92
+Gen 11 done, no improvement for 11 gens, already consumed 50.33 sec
+Do crossover.
+already consumed 50.61 sec
+Gen: 12. Avg 4082.03, Best 4059.03 / m 3, Worst 4116.00
+Gen 12 done, no improvement for 12 gens, already consumed 52.41 sec
+Do crossover.
+already consumed 52.55 sec
+Gen: 13. Avg 4068.55, Best 4059.03 / m 3, Worst 4094.04
+Gen 13 done, no improvement for 13 gens, already consumed 54.19 sec
+Do crossover.
+already consumed 54.26 sec
+Gen: 14. Avg 4068.55, Best 4059.03 / m 3, Worst 4094.04
+Gen 14 done, no improvement for 14 gens, already consumed 55.27 sec
+Do crossover.
+already consumed 55.31 sec
+Gen: 15. Avg 4062.47, Best 4059.03 / m 3, Worst 4069.71
+Gen 15 done, no improvement for 15 gens, already consumed 55.51 sec
+Do crossover.
+already consumed 55.54 sec
+Gen: 16. Avg 4062.47, Best 4059.03 / m 3, Worst 4069.71
+Gen 16 done, no improvement for 16 gens, already consumed 56.19 sec
+Do crossover.
+already consumed 56.25 sec
+Gen: 17. Avg 4062.47, Best 4059.03 / m 3, Worst 4069.71
+Gen 17 done, no improvement for 17 gens, already consumed 56.61 sec
+Do crossover.
+already consumed 56.65 sec
+Gen: 18. Avg 4062.47, Best 4059.03 / m 3, Worst 4069.71
+Gen 18 done, no improvement for 18 gens, already consumed 56.95 sec
+Do crossover.
+already consumed 56.95 sec
+Gen: 19. Avg 4059.80, Best 4059.03 / m 3, Worst 4062.09
+Gen 19 done, no improvement for 19 gens, already consumed 57.10 sec
+Do crossover.
+already consumed 57.10 sec
+Gen: 20. Avg 4059.80, Best 4059.03 / m 3, Worst 4062.09
+Gen 20 done, no improvement for 20 gens, already consumed 57.21 sec
+Do crossover.
+already consumed 57.22 sec
+Gen: 21. Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 21 done, no improvement for 21 gens, already consumed 57.44 sec
+Run 1 finishes
+Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Decomposition done, already consumed 57.44 sec
+After decomposition
+Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+already consumed 57.44 sec
+already consumed 57.52 sec
+After local search
+Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+already consumed 57.52 sec
+already consumed 57.56 sec
+After large neighbourhood search
+Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+Gen 83 done, no improvement for 21 gens, already consumed 57.56 sec
+Run 1 finishes
+Avg 4059.03, Best 4059.03 / m 3, Worst 4059.03
+------------Summary-----------
+This cost 4059.031689, check total cost 4059.031689, diff 0.000000
+Total 1 runs, total consumed 57.56 sec
+afin: llamadas 34620, resueltas 33914, respaldo 706 (PSSI lo logra 0)

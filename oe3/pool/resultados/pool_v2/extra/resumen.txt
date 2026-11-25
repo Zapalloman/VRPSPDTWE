@@ -1,0 +1,36 @@
+c101_21 s1 {'hma0': 13046.3, 'hma1': 13046.3, 'hma3': 13046.3, 'hma4': 13046.3, 'hma5': 13046.3, 'hma6': 13046.3, 'hma7': 13046.3, 'sp': 13046.3, 'hma2': 13049.16} elegido=hma0 lineas_pool=131260 t=107.0
+c101_21 s2 {'hma1': 13046.3, 'hma3': 13046.3, 'hma4': 13046.3, 'hma5': 13046.3, 'hma6': 13046.3, 'hma8': 13046.3, 'sp': 13046.3, 'hma0': 13048.62, 'hma2': 13048.62, 'hma7': 13048.62} elegido=hma1 lineas_pool=127768 t=92.6
+c101_21 s3 {'hma0': 13046.3, 'hma1': 13046.3, 'hma2': 13046.3, 'hma4': 13046.3, 'hma5': 13046.3, 'hma6': 13046.3, 'hma7': 13046.3, 'sp': 13046.3, 'hma3': 13046.85} elegido=hma0 lineas_pool=111035 t=91.9
+c106_21 s1 {'hma0': 12034.67, 'sp': 12034.67, 'hma1': 12035.32} elegido=hma0 lineas_pool=61417 t=115.7
+c106_21 s2 {'hma0': 12022.89, 'sp': 12022.89} elegido=hma0 lineas_pool=34423 t=98.2
+c106_21 s3 {'hma0': 12022.89, 'sp': 12022.89} elegido=hma0 lineas_pool=37672 t=109.5
+c202_21 s1 {'hma0': 4641.07, 'hma1': 4641.07, 'hma2': 4641.07, 'hma3': 4641.07, 'sp': 4641.07} elegido=hma0 lineas_pool=195839 t=95.6
+c202_21 s2 {'hma0': 4641.07, 'hma1': 4641.07, 'hma2': 4641.07, 'sp': 4641.07} elegido=hma0 lineas_pool=184968 t=112.4
+c202_21 s3 {'hma0': 4641.07, 'hma1': 4641.07, 'sp': 4641.07} elegido=hma0 lineas_pool=152419 t=89.8
+c206_21 s1 {'hma0': 4639.88, 'hma1': 4639.88, 'hma2': 4639.88, 'sp': 4639.88} elegido=hma0 lineas_pool=135049 t=106.1
+c206_21 s2 {'hma0': 4639.88, 'hma1': 4639.88, 'hma2': 4639.88, 'sp': 4639.88} elegido=hma0 lineas_pool=132510 t=104.2
+c206_21 s3 {'hma0': 4639.88, 'hma1': 4639.88, 'sp': 4639.88} elegido=hma0 lineas_pool=109528 t=91.3
+r102_21 s1 {'hma0': 16462.98, 'sp': 16462.98} elegido=hma0 lineas_pool=44677 t=89.4
+r102_21 s2 {'sp': 16464.68, 'hma0': 16466.79} elegido=sp lineas_pool=54785 t=111.2
+r102_21 s3 {'sp': 16462.27, 'hma0': 16516.79} elegido=sp lineas_pool=44601 t=112.0
+r108_21 s1 {'sp': 12069.41, 'hma0': 12069.58} elegido=sp lineas_pool=69003 t=119.2
+r108_21 s2 {'hma0': 12073.75, 'sp': 12073.75} elegido=hma0 lineas_pool=55351 t=119.3
+r108_21 s3 {'hma0': 12058.99, 'sp': 12058.99} elegido=hma0 lineas_pool=72170 t=120.6
+r202_21 s1 {'hma0': 4062.8} elegido=hma0 lineas_pool=239934 t=122.0
+r202_21 s2 {'hma0': 4111.27} elegido=hma0 lineas_pool=176972 t=131.0
+r202_21 s3 {'sp': 4083.25, 'hma0': 4083.38} elegido=sp lineas_pool=135508 t=117.8
+r209_21 s1 {'hma0': 3918.48, 'sp': 3918.48} elegido=hma0 lineas_pool=123447 t=116.7
+r209_21 s2 {'hma0': 3887.17, 'sp': 3887.17} elegido=hma0 lineas_pool=139003 t=116.2
+r209_21 s3 {'hma0': 3904.34} elegido=hma0 lineas_pool=110618 t=122.2
+rc102_21 s1 {'sp': 15527.05, 'hma0': 15528.69} elegido=sp lineas_pool=40314 t=111.7
+rc102_21 s2 {'sp': 15530.74, 'hma0': 15535.02} elegido=sp lineas_pool=43964 t=119.2
+rc102_21 s3 {'sp': 16523.9, 'hma0': 16526.54} elegido=sp lineas_pool=41709 t=119.1
+rc106_21 s1 {'sp': 14416.51, 'hma0': 14416.71} elegido=sp lineas_pool=45024 t=119.2
+rc106_21 s2 {'hma0': 14412.47, 'sp': 14412.47} elegido=hma0 lineas_pool=41358 t=119.2
+rc106_21 s3 {'sp': 14409.22, 'hma0': 14409.63} elegido=sp lineas_pool=43543 t=119.1
+rc202_21 s1 {'sp': 5253.96, 'hma0': 5254.94} elegido=sp lineas_pool=195255 t=115.6
+rc202_21 s2 {'hma0': 5249.02, 'sp': 5249.02, 'hma1': 5252.2} elegido=hma0 lineas_pool=250664 t=117.6
+rc202_21 s3 {'hma0': 5246.97, 'sp': 5246.97} elegido=hma0 lineas_pool=249539 t=116.6
+rc206_21 s1 {'sp': 4336.48, 'hma0': 4350.14} elegido=sp lineas_pool=195441 t=114.6
+rc206_21 s2 {'hma0': 5121.97, 'sp': 5121.97} elegido=hma0 lineas_pool=208745 t=121.8
+rc206_21 s3 {'hma0': 5098.99, 'sp': 5098.99} elegido=hma0 lineas_pool=215061 t=115.4

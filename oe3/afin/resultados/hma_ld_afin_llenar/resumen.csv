@@ -1,0 +1,13 @@
+metodo,instancia,corridas,factibles,costo_medio,costo_min,K_medio,tiempo_medio
+hma_ld_afin_llenar,c101_21,3,3,13046.3,13046.3,12,119.4
+hma_ld_afin_llenar,c106_21,3,3,12021.37,12018.34,11,121.8
+hma_ld_afin_llenar,c202_21,3,3,4641.07,4641.07,4,121.6
+hma_ld_afin_llenar,c206_21,3,3,4639.88,4639.88,4,121.9
+hma_ld_afin_llenar,r102_21,3,3,17434.8,17434.54,16,123.0
+hma_ld_afin_llenar,r108_21,3,3,12041.01,12028.79,11,122.5
+hma_ld_afin_llenar,r202_21,3,3,4051.47,4051.47,3,122.0
+hma_ld_afin_llenar,r209_21,3,3,3888.07,3879.78,3,123.6
+hma_ld_afin_llenar,rc102_21,3,3,16193.12,15527.74,14.67,121.9
+hma_ld_afin_llenar,rc106_21,3,3,14415.58,14406.31,13,122.3
+hma_ld_afin_llenar,rc202_21,3,3,5241.5,5240.98,4,121.7
+hma_ld_afin_llenar,rc206_21,3,3,4236.0,4211.14,3,121.6

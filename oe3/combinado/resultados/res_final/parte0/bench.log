@@ -1,0 +1,10 @@
+r107_21 s=2 factible=1 K=12 TC=13127.1235 t=119.66s 
+r111_21 s=2 factible=1 K=12 TC=13086.2515 t=119.45s 
+r203_21 s=2 factible=1 K=3 TC=3919.3183 t=113.49s 
+r206_21 s=2 factible=1 K=3 TC=3928.2014 t=112.08s 
+r210_21 s=2 factible=1 K=3 TC=3854.1881 t=106.88s 
+rc103_21 s=2 factible=1 K=12 TC=13395.6832 t=110.75s 
+rc107_21 s=2 factible=1 K=12 TC=13260.0162 t=119.42s 
+rc203_21 s=2 factible=1 K=3 TC=4088.0626 t=113.08s 
+rc207_21 s=2 factible=1 K=3 TC=4031.2166 t=112.85s 
+resumen en /home/user/oe3/combinado/resultados/res_final/parte0/resumen.md

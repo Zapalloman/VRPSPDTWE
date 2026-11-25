@@ -1,0 +1,22 @@
+{
+ "quitar_cliente": {
+  "mutaciones": 92,
+  "detectadas": 92
+ },
+ "duplicar_cliente": {
+  "mutaciones": 92,
+  "detectadas": 92
+ },
+ "intercambiar_clientes": {
+  "mutaciones": 92,
+  "detectadas": 91
+ },
+ "quitar_estacion": {
+  "mutaciones": 92,
+  "detectadas": 91
+ },
+ "alterar_costo": {
+  "mutaciones": 92,
+  "detectadas": 92
+ }
+}

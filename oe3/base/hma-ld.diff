@@ -1,0 +1,342 @@
+diff -u ../../common/hma/src/data.cpp src/data.cpp
+--- ../../common/hma/src/data.cpp	2026-11-23 04:24:54.077865420 +0000
++++ src/data.cpp	2026-11-23 04:28:21.093179193 +0000
+@@ -30,6 +30,8 @@
+     this->vehicle.battery = data.vehicle.battery;
+     this->vehicle.consumption_rate = data.vehicle.consumption_rate;
+     this->max_distance_reachable = data.max_distance_reachable;
++    this->load_beta = data.load_beta;
++    this->load_rho = data.load_rho;
+     this->vehicle.recharging_rate = data.vehicle.recharging_rate;
+     this->node[0].type = 0;
+     this->node[0].x = data.node[0].x;
+@@ -778,6 +780,12 @@
+     
+ 
+     std::cout << '\n';
++    if (parser.exists("beta"))
++        this->load_beta = std::stod(parser.retrieve<std::string>("beta"));
++    if (parser.exists("rho"))
++        this->load_rho = std::stod(parser.retrieve<std::string>("rho"));
++    printf("Load-dependent consumption: beta = %g, rho = %g\n", this->load_beta, this->load_rho);
++
+     if (parser.exists("random_seed"))
+         this->seed = std::stoi(parser.retrieve<std::string>("random_seed"));
+     this->rng.seed(this->seed);
+diff -u ../../common/hma/src/data.h src/data.h
+--- ../../common/hma/src/data.h	2026-11-23 04:24:54.077937303 +0000
++++ src/data.h	2026-11-23 04:28:21.092960862 +0000
+@@ -65,6 +65,17 @@
+     double start_time; // the earliest time of servicing
+     double end_time;   // the latest time of returning to depot
+     double max_distance_reachable; // given the current battery capacity, the maximum distance that EV can reach
++
++    // HMA-LD: consumo dependiente de la carga. e_ij(L) = h*d_ij*(1 + beta*(L/C - rho)).
++    // La bateria se sigue manejando como "distancia restante" (energia/h), por lo que
++    // el consumo de un arco en esas unidades es edist(i,j,L) = d_ij*(1 + beta*(L/C - rho)).
++    // Con beta = 0 el factor es exactamente 1.0 y edist == dist (bit a bit).
++    double load_beta = 0.2;
++    double load_rho = 0.0;
++    inline double edist(int i, int j, double load) const
++    {
++        return this->dist[i][j] * (1.0 + this->load_beta * (load / this->vehicle.capacity - this->load_rho));
++    }
+     
+ 
+     int DC; // ID of depot, 0 by default
+diff -u ../../common/hma/src/eval.cpp src/eval.cpp
+--- ../../common/hma/src/eval.cpp	2026-11-23 04:24:54.077955706 +0000
++++ src/eval.cpp	2026-11-23 04:29:04.571713330 +0000
+@@ -36,6 +36,7 @@
+             checked = true;
+         }
+ 
++        double arc_load = load; // HMA-LD: carga en el arco (pre_node -> node)
+         load = load - data.node[node].delivery + data.node[node].pickup;
+         if (load > capacity)
+         {
+@@ -93,6 +94,7 @@
+             checked = true;  //insert once
+         }
+ 
++        double arc_load = load; // HMA-LD: carga en el arco (pre_node -> node)
+         load = load - data.node[node].delivery + data.node[node].pickup;
+         if (load > capacity)
+         {
+@@ -109,7 +111,7 @@
+             return;
+         }
+         time = std::max(time, data.node[node].start) + data.node[node].s_time;
+-        arr_remain_dist = dep_remain_dist - data.dist[pre_node][node];
++        arr_remain_dist = dep_remain_dist - data.edist(pre_node, node, arc_load);
+         if (arr_remain_dist < -PRECISION) {
+             flag = 4;
+             return;
+@@ -117,7 +119,7 @@
+         dep_remain_dist = arr_remain_dist;
+         }
+         else{
+-        arr_remain_dist = dep_remain_dist - data.dist[pre_node][node];
++        arr_remain_dist = dep_remain_dist - data.edist(pre_node, node, arc_load);
+         if (arr_remain_dist < -PRECISION) {
+             flag = 4;
+             return;
+@@ -126,20 +128,24 @@
+         int j = i;
+         bool chk=checked;
+         bool if_inserted = false;
++        double seg_load = load; // HMA-LD: carga a bordo al salir de la estacion
+         do{
+             j++;
+             if (j == pos && chk == false) {
+-               f_f0_dist += data.dist[nl[j-1]][inserted_node];
++               f_f0_dist += data.edist(nl[j-1], inserted_node, seg_load);
++               seg_load = seg_load - data.node[inserted_node].delivery + data.node[inserted_node].pickup;
+                j--;
+                chk = true;
+                if_inserted = true;
+             }
+             else if (j == pos && chk == true){
+-               f_f0_dist += data.dist[inserted_node][nl[j]];
++               f_f0_dist += data.edist(inserted_node, nl[j], seg_load);
++               seg_load = seg_load - data.node[nl[j]].delivery + data.node[nl[j]].pickup;
+                if_inserted = false;
+             }
+             else{
+-                f_f0_dist += data.dist[nl[j-1]][nl[j]];
++                f_f0_dist += data.edist(nl[j-1], nl[j], seg_load);
++                seg_load = seg_load - data.node[nl[j]].delivery + data.node[nl[j]].pickup;
+                 if_inserted = false;
+             }
+         } while ((if_inserted == true && data.node[inserted_node].type == 1)||(if_inserted == false && data.node[nl[j]].type == 1)); 
+@@ -258,6 +264,7 @@
+     for (int i = 1; i < len; i++)
+     {
+         int node = nl[i];
++        double arc_load = load; // HMA-LD: carga en el arco (pre_node -> node)
+         load = load - data.node[node].delivery + data.node[node].pickup;
+         if (load > capacity) {flag = 2; return;}   //capacity constrain violation
+         time += data.time[pre_node][node]; 
+@@ -268,23 +275,25 @@
+         time = std::max(time, data.node[node].start) + data.node[node].s_time;
+         sl[i].dep_time = time;
+ 
+-        sl[i].arr_RD = sl[i-1].dep_RD - data.dist[pre_node][node];   
++        sl[i].arr_RD = sl[i-1].dep_RD - data.edist(pre_node, node, arc_load);   
+         if (sl[i].arr_RD < -PRECISION) {flag = 4; index_negtive_first = i; return;} 
+         sl[i].dep_RD = sl[i].arr_RD;          
+         }
+ 
+         else{  //station
+-        sl[i].arr_RD = sl[i-1].dep_RD - data.dist[pre_node][node];   
++        sl[i].arr_RD = sl[i-1].dep_RD - data.edist(pre_node, node, arc_load);   
+         if (sl[i].arr_RD < -PRECISION) {flag = 4; index_negtive_first = i; return;}  //electricity-infeasible
+         // update sl[i].dep_RD, i.e., Charge Amount Calculation.
+ 
+         // 1. the minimal charge amount required to reach the next station f or depot 0, i.e. q_{f_i, 0}
+         double f_f0_dist=0;
+         int j = i;
+-        do{
+-            j++;
+-            f_f0_dist += data.dist[nl[j-1]][nl[j]];
+-        } while (data.node[nl[j]].type == 1);
++        { double seg_load = load; // HMA-LD: energia (en unidades de distancia) hasta la proxima estacion/deposito
++            do{
++                j++;
++                f_f0_dist += data.edist(nl[j-1], nl[j], seg_load);
++                seg_load = seg_load - data.node[nl[j]].delivery + data.node[nl[j]].pickup;
++            } while (data.node[nl[j]].type == 1); }
+ 
+         // Y_{n_i} will not smaller than y_{n_i}. Here sl[i].dep_RD = Y_{n_i} / h 
+         sl[i].dep_RD = std::max(f_f0_dist,sl[i].arr_RD);  
+@@ -385,6 +394,7 @@
+     for (int i = 1; i < len; i++)
+     {
+         int node = nl[i];
++        double arc_load = load; // HMA-LD: carga en el arco (pre_node -> node)
+         load = load - data.node[node].delivery + data.node[node].pickup;
+         if (load > capacity) {flag = 2; return;}   //capacity constrain violation
+ 
+@@ -396,13 +406,13 @@
+         time = std::max(time, data.node[node].start) + data.node[node].s_time;
+         sl[i].dep_time = time;
+ 
+-        sl[i].arr_RD = sl[i-1].dep_RD - data.dist[pre_node][node];   
++        sl[i].arr_RD = sl[i-1].dep_RD - data.edist(pre_node, node, arc_load);   
+         if (sl[i].arr_RD < -PRECISION) {flag = 4; index_negtive_first = i; return;} 
+         sl[i].dep_RD = sl[i].arr_RD;          
+         }
+ 
+         else{  //station
+-        sl[i].arr_RD = sl[i-1].dep_RD - data.dist[pre_node][node];   
++        sl[i].arr_RD = sl[i-1].dep_RD - data.edist(pre_node, node, arc_load);   
+         if (sl[i].arr_RD < -PRECISION) {
+             // If the battery state on arrival at this station is negative
+             /*
+@@ -413,7 +423,7 @@
+             flag = 4;
+             for (int k=1;k<data.station_range;k++) {
+                   node = data.optimal_staion[pre_node][nl[i+1]][k];
+-                  sl[i].arr_RD = sl[i-1].dep_RD - data.dist[pre_node][node];
++                  sl[i].arr_RD = sl[i-1].dep_RD - data.edist(pre_node, node, arc_load);
+                   if (sl[i].arr_RD > -PRECISION){
+                     nl[i]=node;
+                     flag = 1;
+@@ -425,10 +435,12 @@
+         //update sl[i].dep_RD:
+         double f_f0_dist=0;
+         int j = i;
+-        do{
+-            j++;
+-            f_f0_dist += data.dist[nl[j-1]][nl[j]];
+-        } while (data.node[nl[j]].type == 1);
++        { double seg_load = load; // HMA-LD: energia (en unidades de distancia) hasta la proxima estacion/deposito
++            do{
++                j++;
++                f_f0_dist += data.edist(nl[j-1], nl[j], seg_load);
++                seg_load = seg_load - data.node[nl[j]].delivery + data.node[nl[j]].pickup;
++            } while (data.node[nl[j]].type == 1); }
+   
+         sl[i].dep_RD = std::max(f_f0_dist,sl[i].arr_RD);  
+         
+@@ -442,15 +454,17 @@
+             flag = 4;
+             for (int k=1;k<data.station_range;k++) {
+                   node = data.optimal_staion[pre_node][nl[i+1]][k];
+-                  sl[i].arr_RD = sl[i-1].dep_RD - data.dist[pre_node][node];
++                  sl[i].arr_RD = sl[i-1].dep_RD - data.edist(pre_node, node, arc_load);
+                   if (sl[i].arr_RD > -PRECISION){  
+                         nl[i]=node;
+                         f_f0_dist=0;
+                         j = i;
+-                        do{
+-                            j++;
+-                            f_f0_dist += data.dist[nl[j-1]][nl[j]];
+-                        } while (data.node[nl[j]].type == 1);  
++                        { double seg_load = load; // HMA-LD: energia (en unidades de distancia) hasta la proxima estacion/deposito
++            do{
++                j++;
++                f_f0_dist += data.edist(nl[j-1], nl[j], seg_load);
++                seg_load = seg_load - data.node[nl[j]].delivery + data.node[nl[j]].pickup;
++            } while (data.node[nl[j]].type == 1); }  
+                         sl[i].dep_RD = std::max(f_f0_dist,sl[i].arr_RD); 
+                         if (data.max_distance_reachable - sl[i].dep_RD > -PRECISION){
+                         flag = 1;
+@@ -530,6 +544,7 @@
+     for (int i = 1; i < len; i++)
+     {
+         int node = nl[i];
++        double arc_load = load; // HMA-LD: carga en el arco (pre_node -> node)
+         load = load - data.node[node].delivery + data.node[node].pickup;
+         if (load > capacity) {flag = false; return;}
+         time += data.time[pre_node][node];
+@@ -981,12 +996,22 @@
+     int r_len = int(r.temp_node_list.size());
+     // filter all infeasible positions
+     int count1 = 0, count4 = 0, relax = 1;          
++    // HMA-LD: carga en cada arco (k -> k+1) de temp_node_list, para la poda por bateria
++    std::vector<double> arc_loads(r_len, 0.0);
++    {
++        double ld = 0.0;
++        for (int k = 0; k < r_len; k++) ld += data.node[r.temp_node_list[k]].delivery;
++        for (int k = 0; k < r_len; k++) {
++            if (k > 0) ld = ld - data.node[r.temp_node_list[k]].delivery + data.node[r.temp_node_list[k]].pickup;
++            arc_loads[k] = ld;
++        }
++    }
+     for (int pos=index_last_f0+1; pos <= index_negtive_first; pos++){
+             for (int j = 0; j <data.station_range; j++){
+             int i = data.optimal_staion[r.temp_node_list[pos-1]][r.temp_node_list[pos]][j];
+             int flag = 0;
+             double cost = -1.0;
+-            if (r.status_list[pos-1].dep_RD - data.dist[r.temp_node_list[pos-1]][i] < -PRECISION \
++            if (r.status_list[pos-1].dep_RD - data.edist(r.temp_node_list[pos-1], i, arc_loads[pos-1]) < -PRECISION \
+                 || (pos == 1 && data.dist[r.temp_node_list[pos-1]][i] == 0)\
+                 || i == r.temp_node_list[pos-1] \
+                 || i == r.temp_node_list[pos] \
+diff -u ../../common/hma/src/evrp_tw_spd_solver.cpp src/evrp_tw_spd_solver.cpp
+--- ../../common/hma/src/evrp_tw_spd_solver.cpp	2026-11-23 04:24:54.078016484 +0000
++++ src/evrp_tw_spd_solver.cpp	2026-11-23 04:28:21.093258946 +0000
+@@ -71,6 +71,8 @@
+     parser.addArgument("--rd_removal_insertion");
+     parser.addArgument("--bks", 1);
+     parser.addArgument("--random_seed", 1);
++    parser.addArgument("--beta", 1);   // HMA-LD: sensibilidad del consumo a la carga
++    parser.addArgument("--rho", 1);    // HMA-LD: carga de referencia (fraccion de C)
+ 
+     parser.addArgument("--individual_search"); 
+     parser.addArgument("--population_search"); 
+diff -u ../../common/hma/src/solution.h src/solution.h
+--- ../../common/hma/src/solution.h	2026-11-23 04:24:54.078153315 +0000
++++ src/solution.h	2026-11-23 04:28:47.351003859 +0000
+@@ -209,7 +209,8 @@
+         for (int i = 1; i < len; i++)
+         {
+             int node = nl[i];
+-            load = load - data.node[node].delivery + data.node[node].pickup;
++            double arc_load = load; // HMA-LD: carga en el arco (pre_node -> node)
++        load = load - data.node[node].delivery + data.node[node].pickup;
+             if (load > capacity)
+             {
+                 smaller_ca = false;
+@@ -232,7 +233,7 @@
+             time = std::max(time, data.node[node].start) + data.node[node].s_time;
+             sl[i].dep_time = time;
+ 
+-            sl[i].arr_RD = sl[i-1].dep_RD - data.dist[pre_node][node];   
++            sl[i].arr_RD = sl[i-1].dep_RD - data.edist(pre_node, node, arc_load);   
+             if (sl[i].arr_RD < -PRECISION) 
+             {
+                 positive_ba = false;
+@@ -244,12 +245,12 @@
+             }
+ 
+             else{  //station
+-            sl[i].arr_RD = sl[i-1].dep_RD - data.dist[pre_node][node];   
++            sl[i].arr_RD = sl[i-1].dep_RD - data.edist(pre_node, node, arc_load);   
+             if (sl[i].arr_RD < -PRECISION) {
+                 int flag = 4;
+                 for (int k=1;k<data.station_range;k++) {
+                     node = data.optimal_staion[pre_node][nl[i+1]][k];
+-                    sl[i].arr_RD = sl[i-1].dep_RD - data.dist[pre_node][node];
++                    sl[i].arr_RD = sl[i-1].dep_RD - data.edist(pre_node, node, arc_load);
+                     if (sl[i].arr_RD > -PRECISION){
+                         nl[i]=node;
+                         flag = 1;
+@@ -267,25 +268,29 @@
+             //update sl[i].dep_RD:
+             double f_f0_dist=0;
+             int j = i;
++            { double seg_load = load; // HMA-LD: energia (en unidades de distancia) hasta la proxima estacion/deposito
+             do{
+                 j++;
+-                f_f0_dist += data.dist[nl[j-1]][nl[j]];
+-            } while (data.node[nl[j]].type == 1);
++                f_f0_dist += data.edist(nl[j-1], nl[j], seg_load);
++                seg_load = seg_load - data.node[nl[j]].delivery + data.node[nl[j]].pickup;
++            } while (data.node[nl[j]].type == 1); }
+             sl[i].dep_RD = std::max(f_f0_dist,sl[i].arr_RD); 
+             
+             if (data.max_distance_reachable - sl[i].dep_RD < -PRECISION) { 
+                 int flag = 4;
+                 for (int k=1;k<data.station_range;k++) {
+                     node = data.optimal_staion[pre_node][nl[i+1]][k];
+-                    sl[i].arr_RD = sl[i-1].dep_RD - data.dist[pre_node][node];
++                    sl[i].arr_RD = sl[i-1].dep_RD - data.edist(pre_node, node, arc_load);
+                     if (sl[i].arr_RD > -PRECISION){  
+                             nl[i]=node;
+                             f_f0_dist=0;
+                             j = i;
+-                            do{
+-                                j++;
+-                                f_f0_dist += data.dist[nl[j-1]][nl[j]];
+-                            } while (data.node[nl[j]].type == 1);  
++                            { double seg_load = load; // HMA-LD: energia (en unidades de distancia) hasta la proxima estacion/deposito
++            do{
++                j++;
++                f_f0_dist += data.edist(nl[j-1], nl[j], seg_load);
++                seg_load = seg_load - data.node[nl[j]].delivery + data.node[nl[j]].pickup;
++            } while (data.node[nl[j]].type == 1); }  
+                             sl[i].dep_RD = std::max(f_f0_dist,sl[i].arr_RD);  
+                             if (data.max_distance_reachable - sl[i].dep_RD > -PRECISION){
+                             flag = 1;

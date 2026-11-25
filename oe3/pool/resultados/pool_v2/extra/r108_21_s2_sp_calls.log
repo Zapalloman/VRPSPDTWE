@@ -1,0 +1,9 @@
+Running HiGHS 1.16.0 (git hash: f3f113d): Copyright (c) 2026 under MIT licence terms
+Includes third-party software components, see THIRD_PARTY_NOTICES.md for full details
+pool lineas=25196 columnas=12380 carga=0.1s SP=12114.41 K=11 info=('kTimeLimit', 0.009, 12380, 2001, False) t=7.5
+Running HiGHS 1.16.0 (git hash: f3f113d): Copyright (c) 2026 under MIT licence terms
+Includes third-party software components, see THIRD_PARTY_NOTICES.md for full details
+pool lineas=38803 columnas=16730 carga=0.2s SP=12094.13 K=11 info=('kTimeLimit', 0.0216, 16730, 2000, False) t=7.5
+Running HiGHS 1.16.0 (git hash: f3f113d): Copyright (c) 2026 under MIT licence terms
+Includes third-party software components, see THIRD_PARTY_NOTICES.md for full details
+pool lineas=50243 columnas=20952 carga=0.2s SP=12091.55 K=11 info=('kTimeLimit', 0.0175, 20000, 2001, False) t=7.5

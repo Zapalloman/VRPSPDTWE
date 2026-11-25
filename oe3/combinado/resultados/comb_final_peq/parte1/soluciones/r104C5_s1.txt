@@ -1,0 +1,5 @@
+Details of the solution:
+route 0, node_num 5, cost 79.972610, nodes: 0 2 7 1 0
+route 1, node_num 5, cost 56.717137, nodes: 0 3 5 4 0
+vehicle (route) number: 2
+Total cost: 2136.69

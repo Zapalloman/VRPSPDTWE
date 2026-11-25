@@ -1,0 +1,224 @@
+/home/user/oe3/common/hma/data/akb_instances/c101_21.txt relocate movs=10971 fact_full=15 fact_cat=15 ns_full=25.3 ns_cat=6.6 acel=3.83
+/home/user/oe3/common/hma/data/akb_instances/c101_21.txt swap movs=4568 fact_full=0 fact_cat=0 ns_full=58.3 ns_cat=24.4 acel=2.39
+/home/user/oe3/common/hma/data/akb_instances/c101_21.txt 2opt* movs=6583 fact_full=72 fact_cat=72 ns_full=153.5 ns_cat=19.3 acel=7.97
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/c102_21.txt relocate movs=10974 fact_full=1 fact_cat=1 ns_full=17.5 ns_cat=5.1 acel=3.41
+/home/user/oe3/common/hma/data/akb_instances/c102_21.txt swap movs=4494 fact_full=0 fact_cat=0 ns_full=86.6 ns_cat=27.3 acel=3.18
+/home/user/oe3/common/hma/data/akb_instances/c102_21.txt 2opt* movs=6695 fact_full=6 fact_cat=6 ns_full=188.8 ns_cat=29.9 acel=6.31
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/c103_21.txt relocate movs=10525 fact_full=0 fact_cat=0 ns_full=29.3 ns_cat=9.5 acel=3.10
+/home/user/oe3/common/hma/data/akb_instances/c103_21.txt swap movs=4496 fact_full=0 fact_cat=0 ns_full=88.4 ns_cat=28.6 acel=3.09
+/home/user/oe3/common/hma/data/akb_instances/c103_21.txt 2opt* movs=6157 fact_full=12 fact_cat=12 ns_full=178.3 ns_cat=18.6 acel=9.60
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/c104_21.txt relocate movs=10484 fact_full=0 fact_cat=0 ns_full=30.6 ns_cat=9.3 acel=3.30
+/home/user/oe3/common/hma/data/akb_instances/c104_21.txt swap movs=4441 fact_full=5 fact_cat=5 ns_full=70.2 ns_cat=26.5 acel=2.65
+/home/user/oe3/common/hma/data/akb_instances/c104_21.txt 2opt* movs=6186 fact_full=2 fact_cat=2 ns_full=158.9 ns_cat=20.1 acel=7.89
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/c105_21.txt relocate movs=10978 fact_full=9 fact_cat=9 ns_full=27.9 ns_cat=8.8 acel=3.17
+/home/user/oe3/common/hma/data/akb_instances/c105_21.txt swap movs=4534 fact_full=3 fact_cat=3 ns_full=101.6 ns_cat=38.8 acel=2.62
+/home/user/oe3/common/hma/data/akb_instances/c105_21.txt 2opt* movs=6641 fact_full=44 fact_cat=44 ns_full=198.1 ns_cat=25.3 acel=7.84
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/c106_21.txt relocate movs=10969 fact_full=0 fact_cat=0 ns_full=49.0 ns_cat=12.3 acel=3.99
+/home/user/oe3/common/hma/data/akb_instances/c106_21.txt swap movs=4493 fact_full=0 fact_cat=0 ns_full=68.9 ns_cat=26.3 acel=2.62
+/home/user/oe3/common/hma/data/akb_instances/c106_21.txt 2opt* movs=6691 fact_full=2 fact_cat=2 ns_full=182.3 ns_cat=21.4 acel=8.52
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/c107_21.txt relocate movs=10793 fact_full=11 fact_cat=11 ns_full=27.6 ns_cat=7.3 acel=3.78
+/home/user/oe3/common/hma/data/akb_instances/c107_21.txt swap movs=4495 fact_full=1 fact_cat=1 ns_full=70.8 ns_cat=28.9 acel=2.45
+/home/user/oe3/common/hma/data/akb_instances/c107_21.txt 2opt* movs=6475 fact_full=23 fact_cat=23 ns_full=182.3 ns_cat=22.9 acel=7.96
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/c108_21.txt relocate movs=10884 fact_full=8 fact_cat=8 ns_full=22.5 ns_cat=7.3 acel=3.10
+/home/user/oe3/common/hma/data/akb_instances/c108_21.txt swap movs=4495 fact_full=5 fact_cat=5 ns_full=75.1 ns_cat=31.2 acel=2.41
+/home/user/oe3/common/hma/data/akb_instances/c108_21.txt 2opt* movs=6585 fact_full=38 fact_cat=38 ns_full=189.1 ns_cat=22.4 acel=8.45
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/c109_21.txt relocate movs=10608 fact_full=16 fact_cat=16 ns_full=28.1 ns_cat=9.1 acel=3.10
+/home/user/oe3/common/hma/data/akb_instances/c109_21.txt swap movs=4494 fact_full=5 fact_cat=5 ns_full=68.9 ns_cat=31.3 acel=2.20
+/home/user/oe3/common/hma/data/akb_instances/c109_21.txt 2opt* movs=6256 fact_full=49 fact_cat=49 ns_full=168.4 ns_cat=23.2 acel=7.26
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/c201_21.txt relocate movs=7830 fact_full=0 fact_cat=0 ns_full=41.8 ns_cat=4.9 acel=8.52
+/home/user/oe3/common/hma/data/akb_instances/c201_21.txt swap movs=3657 fact_full=2 fact_cat=2 ns_full=148.5 ns_cat=23.8 acel=6.24
+/home/user/oe3/common/hma/data/akb_instances/c201_21.txt 2opt* movs=4191 fact_full=4 fact_cat=4 ns_full=294.2 ns_cat=17.4 acel=16.86
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/c202_21.txt relocate movs=7830 fact_full=0 fact_cat=0 ns_full=61.1 ns_cat=7.9 acel=7.76
+/home/user/oe3/common/hma/data/akb_instances/c202_21.txt swap movs=3657 fact_full=2 fact_cat=2 ns_full=136.0 ns_cat=40.3 acel=3.38
+/home/user/oe3/common/hma/data/akb_instances/c202_21.txt 2opt* movs=4191 fact_full=4 fact_cat=4 ns_full=307.9 ns_cat=27.3 acel=11.27
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/c203_21.txt relocate movs=7830 fact_full=0 fact_cat=0 ns_full=44.3 ns_cat=4.7 acel=9.35
+/home/user/oe3/common/hma/data/akb_instances/c203_21.txt swap movs=3657 fact_full=2 fact_cat=2 ns_full=134.3 ns_cat=24.3 acel=5.53
+/home/user/oe3/common/hma/data/akb_instances/c203_21.txt 2opt* movs=4191 fact_full=4 fact_cat=4 ns_full=284.4 ns_cat=18.2 acel=15.65
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/c204_21.txt relocate movs=7870 fact_full=0 fact_cat=0 ns_full=61.7 ns_cat=6.9 acel=8.99
+/home/user/oe3/common/hma/data/akb_instances/c204_21.txt swap movs=3677 fact_full=0 fact_cat=0 ns_full=128.8 ns_cat=26.0 acel=4.95
+/home/user/oe3/common/hma/data/akb_instances/c204_21.txt 2opt* movs=4211 fact_full=2 fact_cat=2 ns_full=305.7 ns_cat=24.5 acel=12.46
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/c205_21.txt relocate movs=7830 fact_full=13 fact_cat=13 ns_full=55.1 ns_cat=6.4 acel=8.57
+/home/user/oe3/common/hma/data/akb_instances/c205_21.txt swap movs=3657 fact_full=2 fact_cat=2 ns_full=130.9 ns_cat=23.3 acel=5.61
+/home/user/oe3/common/hma/data/akb_instances/c205_21.txt 2opt* movs=4191 fact_full=9 fact_cat=9 ns_full=337.1 ns_cat=27.7 acel=12.19
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/c206_21.txt relocate movs=7830 fact_full=33 fact_cat=33 ns_full=32.5 ns_cat=3.6 acel=8.93
+/home/user/oe3/common/hma/data/akb_instances/c206_21.txt swap movs=3657 fact_full=2 fact_cat=2 ns_full=112.9 ns_cat=24.0 acel=4.71
+/home/user/oe3/common/hma/data/akb_instances/c206_21.txt 2opt* movs=4191 fact_full=8 fact_cat=8 ns_full=298.6 ns_cat=20.8 acel=14.37
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/c207_21.txt relocate movs=7830 fact_full=29 fact_cat=29 ns_full=91.2 ns_cat=10.2 acel=8.92
+/home/user/oe3/common/hma/data/akb_instances/c207_21.txt swap movs=3657 fact_full=2 fact_cat=2 ns_full=161.8 ns_cat=25.9 acel=6.25
+/home/user/oe3/common/hma/data/akb_instances/c207_21.txt 2opt* movs=4191 fact_full=8 fact_cat=8 ns_full=321.6 ns_cat=18.6 acel=17.27
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/c208_21.txt relocate movs=7830 fact_full=44 fact_cat=44 ns_full=90.6 ns_cat=9.9 acel=9.17
+/home/user/oe3/common/hma/data/akb_instances/c208_21.txt swap movs=3657 fact_full=2 fact_cat=2 ns_full=134.9 ns_cat=25.6 acel=5.26
+/home/user/oe3/common/hma/data/akb_instances/c208_21.txt 2opt* movs=4191 fact_full=13 fact_cat=13 ns_full=288.9 ns_cat=18.0 acel=16.08
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/r101_21.txt relocate movs=13437 fact_full=5 fact_cat=5 ns_full=57.9 ns_cat=27.9 acel=2.08
+/home/user/oe3/common/hma/data/akb_instances/r101_21.txt swap movs=4694 fact_full=3 fact_cat=3 ns_full=82.1 ns_cat=36.3 acel=2.26
+/home/user/oe3/common/hma/data/akb_instances/r101_21.txt 2opt* movs=9606 fact_full=215 fact_cat=215 ns_full=202.5 ns_cat=41.4 acel=4.89
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/r102_21.txt relocate movs=12826 fact_full=14 fact_cat=14 ns_full=25.0 ns_cat=10.5 acel=2.39
+/home/user/oe3/common/hma/data/akb_instances/r102_21.txt swap movs=4680 fact_full=3 fact_cat=3 ns_full=63.3 ns_cat=32.7 acel=1.93
+/home/user/oe3/common/hma/data/akb_instances/r102_21.txt 2opt* movs=8781 fact_full=165 fact_cat=165 ns_full=198.9 ns_cat=45.1 acel=4.41
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/r103_21.txt relocate movs=12246 fact_full=5 fact_cat=5 ns_full=14.6 ns_cat=5.5 acel=2.62
+/home/user/oe3/common/hma/data/akb_instances/r103_21.txt swap movs=4602 fact_full=0 fact_cat=0 ns_full=69.3 ns_cat=37.7 acel=1.84
+/home/user/oe3/common/hma/data/akb_instances/r103_21.txt 2opt* movs=8141 fact_full=31 fact_cat=31 ns_full=216.1 ns_cat=37.4 acel=5.77
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/r104_21.txt relocate movs=11124 fact_full=10 fact_cat=10 ns_full=31.4 ns_cat=10.8 acel=2.91
+/home/user/oe3/common/hma/data/akb_instances/r104_21.txt swap movs=4520 fact_full=6 fact_cat=6 ns_full=75.9 ns_cat=40.0 acel=1.90
+/home/user/oe3/common/hma/data/akb_instances/r104_21.txt 2opt* movs=6842 fact_full=48 fact_cat=48 ns_full=197.1 ns_cat=23.5 acel=8.40
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/r105_21.txt relocate movs=12511 fact_full=9 fact_cat=9 ns_full=14.2 ns_cat=5.5 acel=2.59
+/home/user/oe3/common/hma/data/akb_instances/r105_21.txt swap movs=4630 fact_full=0 fact_cat=0 ns_full=80.0 ns_cat=32.6 acel=2.46
+/home/user/oe3/common/hma/data/akb_instances/r105_21.txt 2opt* movs=8444 fact_full=33 fact_cat=33 ns_full=206.2 ns_cat=37.6 acel=5.49
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/r106_21.txt relocate movs=12129 fact_full=12 fact_cat=12 ns_full=19.3 ns_cat=5.8 acel=3.31
+/home/user/oe3/common/hma/data/akb_instances/r106_21.txt swap movs=4587 fact_full=0 fact_cat=0 ns_full=67.2 ns_cat=31.8 acel=2.12
+/home/user/oe3/common/hma/data/akb_instances/r106_21.txt 2opt* movs=8011 fact_full=26 fact_cat=26 ns_full=211.4 ns_cat=28.9 acel=7.31
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/r107_21.txt relocate movs=11505 fact_full=15 fact_cat=15 ns_full=31.2 ns_cat=10.6 acel=2.95
+/home/user/oe3/common/hma/data/akb_instances/r107_21.txt swap movs=4560 fact_full=2 fact_cat=2 ns_full=75.7 ns_cat=66.9 acel=1.13
+/home/user/oe3/common/hma/data/akb_instances/r107_21.txt 2opt* movs=7252 fact_full=38 fact_cat=38 ns_full=193.9 ns_cat=37.1 acel=5.22
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/r108_21.txt relocate movs=11369 fact_full=113 fact_cat=113 ns_full=28.7 ns_cat=13.1 acel=2.18
+/home/user/oe3/common/hma/data/akb_instances/r108_21.txt swap movs=4505 fact_full=11 fact_cat=11 ns_full=76.2 ns_cat=39.5 acel=1.93
+/home/user/oe3/common/hma/data/akb_instances/r108_21.txt 2opt* movs=7169 fact_full=114 fact_cat=114 ns_full=215.6 ns_cat=34.8 acel=6.20
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/r109_21.txt relocate movs=12072 fact_full=1 fact_cat=1 ns_full=19.1 ns_cat=5.3 acel=3.59
+/home/user/oe3/common/hma/data/akb_instances/r109_21.txt swap movs=4571 fact_full=0 fact_cat=0 ns_full=69.7 ns_cat=31.4 acel=2.22
+/home/user/oe3/common/hma/data/akb_instances/r109_21.txt 2opt* movs=7968 fact_full=21 fact_cat=21 ns_full=218.8 ns_cat=38.2 acel=5.72
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/r110_21.txt relocate movs=11535 fact_full=4 fact_cat=4 ns_full=28.2 ns_cat=8.9 acel=3.16
+/home/user/oe3/common/hma/data/akb_instances/r110_21.txt swap movs=4539 fact_full=2 fact_cat=2 ns_full=64.7 ns_cat=27.3 acel=2.37
+/home/user/oe3/common/hma/data/akb_instances/r110_21.txt 2opt* movs=7326 fact_full=46 fact_cat=46 ns_full=187.2 ns_cat=27.7 acel=6.77
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/r111_21.txt relocate movs=11443 fact_full=4 fact_cat=4 ns_full=25.3 ns_cat=9.3 acel=2.72
+/home/user/oe3/common/hma/data/akb_instances/r111_21.txt swap movs=4576 fact_full=1 fact_cat=1 ns_full=61.1 ns_cat=27.7 acel=2.21
+/home/user/oe3/common/hma/data/akb_instances/r111_21.txt 2opt* movs=7151 fact_full=32 fact_cat=32 ns_full=179.5 ns_cat=23.4 acel=7.67
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/r112_21.txt relocate movs=11256 fact_full=45 fact_cat=45 ns_full=32.9 ns_cat=13.1 acel=2.52
+/home/user/oe3/common/hma/data/akb_instances/r112_21.txt swap movs=4535 fact_full=8 fact_cat=8 ns_full=67.5 ns_cat=28.7 acel=2.35
+/home/user/oe3/common/hma/data/akb_instances/r112_21.txt 2opt* movs=6981 fact_full=86 fact_cat=86 ns_full=191.8 ns_cat=27.2 acel=7.04
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/r201_21.txt relocate movs=7380 fact_full=12 fact_cat=12 ns_full=47.5 ns_cat=7.4 acel=6.39
+/home/user/oe3/common/hma/data/akb_instances/r201_21.txt swap movs=3324 fact_full=2 fact_cat=2 ns_full=192.1 ns_cat=33.3 acel=5.77
+/home/user/oe3/common/hma/data/akb_instances/r201_21.txt 2opt* movs=4095 fact_full=17 fact_cat=17 ns_full=489.5 ns_cat=39.3 acel=12.44
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/r202_21.txt relocate movs=6998 fact_full=255 fact_cat=255 ns_full=49.2 ns_cat=5.0 acel=9.81
+/home/user/oe3/common/hma/data/akb_instances/r202_21.txt swap movs=3299 fact_full=22 fact_cat=22 ns_full=239.0 ns_cat=29.5 acel=8.09
+/home/user/oe3/common/hma/data/akb_instances/r202_21.txt 2opt* movs=3711 fact_full=61 fact_cat=61 ns_full=410.2 ns_cat=23.7 acel=17.33
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/r203_21.txt relocate movs=7062 fact_full=54 fact_cat=54 ns_full=94.2 ns_cat=9.5 acel=9.94
+/home/user/oe3/common/hma/data/akb_instances/r203_21.txt swap movs=3331 fact_full=7 fact_cat=7 ns_full=190.0 ns_cat=28.7 acel=6.62
+/home/user/oe3/common/hma/data/akb_instances/r203_21.txt 2opt* movs=3743 fact_full=27 fact_cat=27 ns_full=363.5 ns_cat=20.9 acel=17.35
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/r204_21.txt relocate movs=5247 fact_full=0 fact_cat=0 ns_full=116.3 ns_cat=11.4 acel=10.21
+/home/user/oe3/common/hma/data/akb_instances/r204_21.txt swap movs=2499 fact_full=0 fact_cat=0 ns_full=302.8 ns_cat=51.5 acel=5.88
+/home/user/oe3/common/hma/data/akb_instances/r204_21.txt 2opt* movs=2754 fact_full=0 fact_cat=0 ns_full=715.3 ns_cat=55.1 acel=12.99
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/r205_21.txt relocate movs=7062 fact_full=34 fact_cat=34 ns_full=65.9 ns_cat=6.4 acel=10.35
+/home/user/oe3/common/hma/data/akb_instances/r205_21.txt swap movs=3331 fact_full=0 fact_cat=0 ns_full=170.0 ns_cat=24.5 acel=6.94
+/home/user/oe3/common/hma/data/akb_instances/r205_21.txt 2opt* movs=3743 fact_full=9 fact_cat=9 ns_full=413.5 ns_cat=20.9 acel=19.74
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/r206_21.txt relocate movs=7062 fact_full=118 fact_cat=118 ns_full=124.7 ns_cat=10.9 acel=11.45
+/home/user/oe3/common/hma/data/akb_instances/r206_21.txt swap movs=3331 fact_full=10 fact_cat=10 ns_full=191.5 ns_cat=44.9 acel=4.26
+/home/user/oe3/common/hma/data/akb_instances/r206_21.txt 2opt* movs=3743 fact_full=8 fact_cat=8 ns_full=346.5 ns_cat=34.7 acel=9.98
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/r207_21.txt relocate movs=5198 fact_full=0 fact_cat=0 ns_full=75.2 ns_cat=7.0 acel=10.70
+/home/user/oe3/common/hma/data/akb_instances/r207_21.txt swap movs=2499 fact_full=0 fact_cat=0 ns_full=312.5 ns_cat=44.5 acel=7.03
+/home/user/oe3/common/hma/data/akb_instances/r207_21.txt 2opt* movs=2703 fact_full=0 fact_cat=0 ns_full=482.3 ns_cat=30.8 acel=15.66
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/r208_21.txt relocate movs=5172 fact_full=0 fact_cat=0 ns_full=157.6 ns_cat=9.4 acel=16.82
+/home/user/oe3/common/hma/data/akb_instances/r208_21.txt swap movs=2464 fact_full=0 fact_cat=0 ns_full=278.9 ns_cat=28.5 acel=9.78
+/home/user/oe3/common/hma/data/akb_instances/r208_21.txt 2opt* movs=2714 fact_full=0 fact_cat=0 ns_full=574.8 ns_cat=31.2 acel=18.41
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/r209_21.txt relocate movs=7025 fact_full=519 fact_cat=519 ns_full=100.1 ns_cat=10.0 acel=10.00
+/home/user/oe3/common/hma/data/akb_instances/r209_21.txt swap movs=3283 fact_full=89 fact_cat=89 ns_full=197.0 ns_cat=31.8 acel=6.20
+/home/user/oe3/common/hma/data/akb_instances/r209_21.txt 2opt* movs=3758 fact_full=76 fact_cat=76 ns_full=447.6 ns_cat=27.3 acel=16.40
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/r210_21.txt relocate movs=6780 fact_full=76 fact_cat=76 ns_full=139.9 ns_cat=12.9 acel=10.85
+/home/user/oe3/common/hma/data/akb_instances/r210_21.txt swap movs=3200 fact_full=10 fact_cat=10 ns_full=220.4 ns_cat=26.8 acel=8.21
+/home/user/oe3/common/hma/data/akb_instances/r210_21.txt 2opt* movs=3591 fact_full=26 fact_cat=26 ns_full=657.4 ns_cat=43.2 acel=15.23
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/r211_21.txt relocate movs=6880 fact_full=253 fact_cat=253 ns_full=107.2 ns_cat=16.2 acel=6.62
+/home/user/oe3/common/hma/data/akb_instances/r211_21.txt swap movs=3277 fact_full=21 fact_cat=21 ns_full=216.5 ns_cat=27.9 acel=7.78
+/home/user/oe3/common/hma/data/akb_instances/r211_21.txt 2opt* movs=3611 fact_full=41 fact_cat=41 ns_full=644.0 ns_cat=39.7 acel=16.23
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/rc101_21.txt relocate movs=12733 fact_full=19 fact_cat=19 ns_full=30.6 ns_cat=11.1 acel=2.76
+/home/user/oe3/common/hma/data/akb_instances/rc101_21.txt swap movs=4644 fact_full=3 fact_cat=3 ns_full=77.3 ns_cat=42.8 acel=1.81
+/home/user/oe3/common/hma/data/akb_instances/rc101_21.txt 2opt* movs=8723 fact_full=104 fact_cat=104 ns_full=197.9 ns_cat=34.1 acel=5.81
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/rc102_21.txt relocate movs=12312 fact_full=21 fact_cat=21 ns_full=12.6 ns_cat=4.7 acel=2.71
+/home/user/oe3/common/hma/data/akb_instances/rc102_21.txt swap movs=4627 fact_full=4 fact_cat=4 ns_full=62.5 ns_cat=32.9 acel=1.90
+/home/user/oe3/common/hma/data/akb_instances/rc102_21.txt 2opt* movs=8187 fact_full=70 fact_cat=70 ns_full=219.9 ns_cat=32.9 acel=6.68
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/rc103_21.txt relocate movs=11677 fact_full=4 fact_cat=4 ns_full=32.0 ns_cat=9.7 acel=3.31
+/home/user/oe3/common/hma/data/akb_instances/rc103_21.txt swap movs=4556 fact_full=1 fact_cat=1 ns_full=83.3 ns_cat=49.6 acel=1.68
+/home/user/oe3/common/hma/data/akb_instances/rc103_21.txt 2opt* movs=7478 fact_full=34 fact_cat=34 ns_full=244.5 ns_cat=23.9 acel=10.21
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/rc104_21.txt relocate movs=11134 fact_full=20 fact_cat=20 ns_full=29.9 ns_cat=9.4 acel=3.19
+/home/user/oe3/common/hma/data/akb_instances/rc104_21.txt swap movs=4525 fact_full=0 fact_cat=0 ns_full=66.9 ns_cat=27.0 acel=2.48
+/home/user/oe3/common/hma/data/akb_instances/rc104_21.txt 2opt* movs=6846 fact_full=7 fact_cat=7 ns_full=176.8 ns_cat=21.1 acel=8.38
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/rc105_21.txt relocate movs=12012 fact_full=6 fact_cat=6 ns_full=34.7 ns_cat=11.1 acel=3.11
+/home/user/oe3/common/hma/data/akb_instances/rc105_21.txt swap movs=4618 fact_full=2 fact_cat=2 ns_full=70.9 ns_cat=30.5 acel=2.32
+/home/user/oe3/common/hma/data/akb_instances/rc105_21.txt 2opt* movs=7808 fact_full=34 fact_cat=34 ns_full=185.1 ns_cat=45.7 acel=4.05
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/rc106_21.txt relocate movs=11873 fact_full=16 fact_cat=16 ns_full=18.5 ns_cat=8.0 acel=2.30
+/home/user/oe3/common/hma/data/akb_instances/rc106_21.txt swap movs=4601 fact_full=2 fact_cat=2 ns_full=58.7 ns_cat=28.0 acel=2.10
+/home/user/oe3/common/hma/data/akb_instances/rc106_21.txt 2opt* movs=7655 fact_full=30 fact_cat=30 ns_full=185.6 ns_cat=27.4 acel=6.79
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/rc107_21.txt relocate movs=11345 fact_full=1 fact_cat=1 ns_full=16.4 ns_cat=4.4 acel=3.75
+/home/user/oe3/common/hma/data/akb_instances/rc107_21.txt swap movs=4537 fact_full=0 fact_cat=0 ns_full=84.3 ns_cat=54.4 acel=1.55
+/home/user/oe3/common/hma/data/akb_instances/rc107_21.txt 2opt* movs=7090 fact_full=21 fact_cat=21 ns_full=201.0 ns_cat=29.3 acel=6.87
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/rc108_21.txt relocate movs=11152 fact_full=2 fact_cat=2 ns_full=29.6 ns_cat=9.9 acel=2.99
+/home/user/oe3/common/hma/data/akb_instances/rc108_21.txt swap movs=4532 fact_full=0 fact_cat=0 ns_full=72.8 ns_cat=32.5 acel=2.24
+/home/user/oe3/common/hma/data/akb_instances/rc108_21.txt 2opt* movs=6858 fact_full=13 fact_cat=13 ns_full=180.4 ns_cat=27.0 acel=6.69
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/rc201_21.txt relocate movs=8180 fact_full=7 fact_cat=7 ns_full=77.7 ns_cat=11.6 acel=6.69
+/home/user/oe3/common/hma/data/akb_instances/rc201_21.txt swap movs=3717 fact_full=0 fact_cat=0 ns_full=129.6 ns_cat=28.2 acel=4.60
+/home/user/oe3/common/hma/data/akb_instances/rc201_21.txt 2opt* movs=4499 fact_full=16 fact_cat=16 ns_full=314.9 ns_cat=26.3 acel=11.97
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/rc202_21.txt relocate movs=7883 fact_full=185 fact_cat=185 ns_full=105.7 ns_cat=11.3 acel=9.32
+/home/user/oe3/common/hma/data/akb_instances/rc202_21.txt swap movs=3681 fact_full=6 fact_cat=6 ns_full=182.0 ns_cat=26.8 acel=6.79
+/home/user/oe3/common/hma/data/akb_instances/rc202_21.txt 2opt* movs=4219 fact_full=74 fact_cat=74 ns_full=335.8 ns_cat=21.9 acel=15.34
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/rc203_21.txt relocate movs=7222 fact_full=14 fact_cat=14 ns_full=57.8 ns_cat=7.9 acel=7.30
+/home/user/oe3/common/hma/data/akb_instances/rc203_21.txt swap movs=3313 fact_full=0 fact_cat=0 ns_full=177.9 ns_cat=34.6 acel=5.15
+/home/user/oe3/common/hma/data/akb_instances/rc203_21.txt 2opt* movs=3935 fact_full=2 fact_cat=2 ns_full=412.7 ns_cat=50.5 acel=8.17
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/rc204_21.txt relocate movs=6959 fact_full=114 fact_cat=114 ns_full=157.4 ns_cat=15.5 acel=10.16
+/home/user/oe3/common/hma/data/akb_instances/rc204_21.txt swap movs=3219 fact_full=21 fact_cat=21 ns_full=253.7 ns_cat=34.9 acel=7.27
+/home/user/oe3/common/hma/data/akb_instances/rc204_21.txt 2opt* movs=3761 fact_full=23 fact_cat=23 ns_full=402.5 ns_cat=27.8 acel=14.48
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/rc205_21.txt relocate movs=8118 fact_full=14 fact_cat=14 ns_full=82.7 ns_cat=11.7 acel=7.05
+/home/user/oe3/common/hma/data/akb_instances/rc205_21.txt swap movs=3693 fact_full=0 fact_cat=0 ns_full=208.8 ns_cat=29.9 acel=6.98
+/home/user/oe3/common/hma/data/akb_instances/rc205_21.txt 2opt* movs=4461 fact_full=9 fact_cat=9 ns_full=348.0 ns_cat=48.9 acel=7.11
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/rc206_21.txt relocate movs=7118 fact_full=4 fact_cat=4 ns_full=227.3 ns_cat=24.1 acel=9.44
+/home/user/oe3/common/hma/data/akb_instances/rc206_21.txt swap movs=3327 fact_full=1 fact_cat=1 ns_full=316.9 ns_cat=45.6 acel=6.94
+/home/user/oe3/common/hma/data/akb_instances/rc206_21.txt 2opt* movs=3807 fact_full=4 fact_cat=4 ns_full=460.2 ns_cat=24.3 acel=18.95
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/rc207_21.txt relocate movs=7133 fact_full=63 fact_cat=63 ns_full=110.9 ns_cat=12.9 acel=8.61
+/home/user/oe3/common/hma/data/akb_instances/rc207_21.txt swap movs=3303 fact_full=4 fact_cat=4 ns_full=220.3 ns_cat=35.1 acel=6.27
+/home/user/oe3/common/hma/data/akb_instances/rc207_21.txt 2opt* movs=3851 fact_full=15 fact_cat=15 ns_full=505.2 ns_cat=51.9 acel=9.73
+discrepancias=0
+/home/user/oe3/common/hma/data/akb_instances/rc208_21.txt relocate movs=7212 fact_full=6 fact_cat=6 ns_full=58.6 ns_cat=9.5 acel=6.16
+/home/user/oe3/common/hma/data/akb_instances/rc208_21.txt swap movs=3277 fact_full=0 fact_cat=0 ns_full=176.5 ns_cat=35.3 acel=5.01
+/home/user/oe3/common/hma/data/akb_instances/rc208_21.txt 2opt* movs=3967 fact_full=1 fact_cat=1 ns_full=499.3 ns_cat=34.1 acel=14.62
+discrepancias=0

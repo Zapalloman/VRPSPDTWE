@@ -1,0 +1,9 @@
+metodo,instancia,corridas,factibles,costo_medio,costo_min,K_medio,tiempo_medio
+res_hma_ld_peq,c106C15,1,1,3275.13,3275.13,3,1.4
+res_hma_ld_peq,c206C5,1,1,1242.56,1242.56,1,0.1
+res_hma_ld_peq,r102C15,1,1,5412.78,5412.78,5,4.2
+res_hma_ld_peq,r202C15,1,1,2358.0,2358.0,2,0.7
+res_hma_ld_peq,r203C5,1,1,1179.06,1179.06,1,0.1
+res_hma_ld_peq,rc103C15,1,1,4397.67,4397.67,4,0.9
+res_hma_ld_peq,rc202C15,1,1,2394.39,2394.39,2,2.3
+res_hma_ld_peq,rc208C5,1,1,1167.98,1167.98,1,0.2

@@ -1,0 +1,63 @@
+c101_21    pub K=12 13043.38 | rep OK 12 13049.42 | pool OK K=12 13046.85 cols=12497 t=30.9
+c102_21    pub K=10 11089.80 | rep --  0.00 | pool OK K=11 12050.78 cols=6494 t=32.1
+c103_21    pub K=10 10945.45 | rep --  0.00 | pool OK K=10 10987.58 cols=5900 t=30.9
+c104_21    pub K=9 9890.98 | rep --  0.00 | pool OK K=10 10924.45 cols=3993 t=30.6
+c105_21    pub K=11 12030.81 | rep --  0.00 | pool OK K=11 12037.11 cols=9080 t=30.1
+c106_21    pub K=10 11040.32 | rep --  0.00 | pool OK K=11 12056.52 cols=6400 t=30.3
+c107_21    pub K=10 11021.16 | rep --  0.00 | pool OK K=11 12063.56 cols=6577 t=30.0
+c108_21    pub K=10 11006.10 | rep --  0.00 | pool OK K=10 11032.51 cols=7434 t=32.2
+c109_21    pub K=10 10911.47 | rep --  0.00 | pool OK K=10 10938.37 cols=5207 t=30.2
+c201_21    pub K=4 4629.95 | rep --  0.00 | pool OK K=4 4643.44 cols=15144 t=44.4
+c202_21    pub K=4 4629.95 | rep --  0.00 | pool OK K=4 4643.42 cols=9451 t=30.4
+c203_21    pub K=4 4629.95 | rep --  0.00 | pool OK K=4 4643.42 cols=7522 t=32.1
+c204_21    pub K=4 4628.91 | rep --  0.00 | pool OK K=4 4641.21 cols=12083 t=32.9
+c205_21    pub K=4 4629.95 | rep --  0.00 | pool OK K=4 4639.88 cols=10128 t=32.3
+c206_21    pub K=4 4629.95 | rep --  0.00 | pool OK K=4 4639.88 cols=11225 t=32.8
+c207_21    pub K=4 4629.95 | rep --  0.00 | pool OK K=4 4639.88 cols=8769 t=32.1
+c208_21    pub K=4 4629.95 | rep --  0.00 | pool OK K=4 4639.88 cols=11903 t=31.0
+r101_21    pub K=17 18636.96 | rep OK 17 18647.19 | pool OK K=17 18646.25 cols=7272 t=30.3
+r102_21    pub K=16 17424.75 | rep OK 16 17432.48 | pool OK K=16 17432.48 cols=8172 t=30.4
+r103_21    pub K=13 14209.21 | rep --  0.00 | pool OK K=14 15284.53 cols=6601 t=32.1
+r104_21    pub K=11 12051.19 | rep --  0.00 | pool OK K=12 13092.35 cols=4506 t=30.0
+r105_21    pub K=14 15366.33 | rep OK 14 15408.01 | pool OK K=14 15405.94 cols=8401 t=32.0
+r106_21    pub K=13 14265.55 | rep --  0.00 | pool OK K=14 15338.95 cols=4047 t=30.7
+r107_21    pub K=12 13112.66 | rep --  0.00 | pool OK K=13 14176.66 cols=5615 t=30.1
+r108_21    pub K=11 12016.74 | rep --  0.00 | pool OK K=11 12036.96 cols=6046 t=32.1
+r109_21    pub K=12 13203.74 | rep --  0.00 | pool OK K=13 14264.24 cols=4180 t=31.9
+r110_21    pub K=11 12070.04 | rep --  0.00 | pool OK K=12 13105.14 cols=5691 t=31.7
+r111_21    pub K=12 13070.64 | rep --  0.00 | pool OK K=12 13092.23 cols=6814 t=32.1
+r112_21    pub K=11 12001.79 | rep --  0.00 | pool OK K=11 12012.62 cols=5841 t=30.2
+r201_21    pub K=3 4268.88 | rep OK 3 4268.88 | pool OK K=3 4268.88 cols=18539 t=31.5
+r202_21    pub K=3 4054.75 | rep OK 3 4054.75 | pool OK K=3 4054.75 cols=10395 t=33.8
+r203_21    pub K=3 3898.68 | rep OK 3 3900.35 | pool OK K=3 3900.35 cols=9731 t=33.9
+r204_21    pub K=2 2815.58 | rep OK 2 2815.58 | pool OK K=2 2815.58 cols=4391 t=33.6
+r205_21    pub K=3 3995.35 | rep OK 3 3995.65 | pool OK K=3 3995.65 cols=10106 t=33.8
+r206_21    pub K=3 3925.95 | rep OK 3 3928.23 | pool OK K=3 3928.23 cols=11179 t=32.6
+r207_21    pub K=2 2851.75 | rep OK 2 2851.90 | pool OK K=2 2851.89 cols=5270 t=30.2
+r208_21    pub K=2 2740.06 | rep OK 2 2741.13 | pool OK K=2 2740.90 cols=5193 t=33.3
+r209_21    pub K=3 3877.24 | rep OK 3 3877.24 | pool OK K=3 3877.24 cols=8418 t=33.2
+r210_21    pub K=3 3846.62 | rep OK 3 3846.62 | pool OK K=3 3846.62 cols=8727 t=33.1
+r211_21    pub K=3 3772.67 | rep OK 3 3772.73 | pool OK K=3 3772.71 cols=7835 t=30.9
+rc101_21   pub K=15 16661.53 | rep --  0.00 | pool OK K=15 16683.41 cols=6240 t=32.0
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+rc102_21   pub K=14 15510.31 | rep --  0.00 | pool OK K=15 16589.18 cols=4105 t=30.1
+rc103_21   pub K=12 13343.56 | rep --  0.00 | pool OK K=13 14367.48 cols=4990 t=30.1
+rc104_21   pub K=11 12150.47 | rep --  0.00 | pool OK K=12 13259.21 cols=3411 t=30.0
+rc105_21   pub K=14 15447.52 | rep --  0.00 | pool OK K=14 15475.40 cols=5424 t=32.1
+rc106_21   pub K=13 14388.12 | rep --  0.00 | pool OK K=14 15475.22 cols=5376 t=30.1
+rc107_21   pub K=11 12234.76 | rep --  0.00 | pool OK K=13 14334.29 cols=3393 t=30.0
+rc108_21   pub K=11 12140.28 | rep --  0.00 | pool OK K=12 13233.69 cols=4215 t=30.1
+rc201_21   pub K=4 5444.90 | rep OK 4 5448.85 | pool OK K=4 5448.85 cols=17101 t=31.6
+rc202_21   pub K=4 5240.40 | rep OK 4 5240.98 | pool OK K=4 5240.98 cols=14332 t=34.3
+rc203_21   pub K=3 4078.55 | rep OK 3 4084.57 | pool OK K=3 4084.13 cols=10532 t=33.0
+rc204_21   pub K=3 3892.97 | rep OK 3 3895.68 | pool OK K=3 3895.68 cols=14769 t=30.1
+rc205_21   pub K=4 5149.13 | rep OK 4 5150.40 | pool OK K=4 5149.97 cols=11287 t=32.2
+rc206_21   pub K=3 4200.69 | rep OK 3 4200.87 | pool OK K=3 4200.87 cols=13503 t=33.0
+rc207_21   pub K=3 3979.65 | rep OK 3 3986.25 | pool OK K=3 3986.25 cols=9354 t=33.4
+rc208_21   pub K=3 3838.78 | rep OK 3 3845.06 | pool OK K=3 3845.06 cols=7771 t=32.0
