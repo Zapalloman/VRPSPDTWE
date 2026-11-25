@@ -1,0 +1,9 @@
+metodo,instancia,corridas,factibles,costo_medio,costo_min,K_medio,tiempo_medio
+res_final_peq,c101C10,1,1,3388.25,3388.25,3,84.0
+res_final_peq,c202C10,1,1,1304.06,1304.06,1,84.4
+res_final_peq,c208C15,1,1,2300.55,2300.55,2,84.6
+res_final_peq,r103C10,1,1,2206.3,2206.3,2,85.0
+res_final_peq,r202C5,1,1,1142.65,1142.65,1,84.3
+res_final_peq,r209C15,1,1,1333.5,1333.5,1,86.6
+res_final_peq,rc108C10,1,1,3345.93,3345.93,3,83.9
+res_final_peq,rc204C15,1,1,1385.48,1385.48,1,85.7

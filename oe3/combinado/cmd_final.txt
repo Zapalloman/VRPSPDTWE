@@ -1,0 +1,1 @@
+python3 /home/user/oe3/combinado/metodo_comb.py --instancia {instancia} --salida {salida} --tiempo {tiempo} --semilla {semilla} --beta {beta} --rho {rho} --v2 --every 25 --tl 8 --restart --t-final 12 --min-restart 10 --extra "--afin 2 --elim 4 --elim_t 1"

@@ -1,0 +1,9 @@
+c103C5 s=1 factible=1 K=1 TC=1175.3692 t=84.32s 
+c205C10 s=1 factible=1 K=2 TC=2228.2812 t=84.04s 
+c208C5 s=1 factible=1 K=1 TC=1158.4807 t=84.21s 
+r105C5 s=1 factible=1 K=2 TC=2156.0821 t=84.48s 
+r203C10 s=1 factible=1 K=1 TC=1218.2135 t=84.33s 
+rc102C10 s=1 factible=1 K=5 TC=5460.976 t=84.16s 
+rc108C5 s=1 factible=1 K=2 TC=2253.9307 t=83.99s 
+rc205C10 s=1 factible=1 K=2 TC=2325.9774 t=84.41s 
+resumen en /home/user/oe3/combinado/resultados/res_final_peq/parte1/resumen.md

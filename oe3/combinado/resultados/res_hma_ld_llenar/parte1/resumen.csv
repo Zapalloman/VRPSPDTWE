@@ -1,0 +1,16 @@
+metodo,instancia,corridas,factibles,costo_medio,costo_min,K_medio,tiempo_medio
+res_hma_ld_llenar,c103_21,2,2,10964.48,10963.65,10,125.4
+res_hma_ld_llenar,c107_21,2,2,11528.82,11047.55,10.5,121.4
+res_hma_ld_llenar,c201_21,2,2,4642.84,4642.84,4,119.3
+res_hma_ld_llenar,c205_21,2,2,4639.88,4639.88,4,121.3
+res_hma_ld_llenar,r101_21,2,2,19612.37,19608.93,18,121.2
+res_hma_ld_llenar,r105_21,2,2,16370.19,16367.4,15,121.3
+res_hma_ld_llenar,r109_21,2,2,14197.72,14197.51,13,121.8
+res_hma_ld_llenar,r112_21,2,2,13042.17,13034.09,12,122.0
+res_hma_ld_llenar,r204_21,2,2,3738.86,3738.19,3,124.0
+res_hma_ld_llenar,r207_21,2,2,3830.7,3818.8,3,124.6
+res_hma_ld_llenar,r211_21,2,2,3790.86,3786.77,3,125.9
+res_hma_ld_llenar,rc104_21,2,2,12203.41,12200.38,11,122.1
+res_hma_ld_llenar,rc108_21,2,2,12217.79,12204.85,11,121.9
+res_hma_ld_llenar,rc204_21,2,2,3901.52,3897.38,3,132.8
+res_hma_ld_llenar,rc208_21,2,2,3877.3,3866.79,3,124.8

@@ -1,0 +1,9 @@
+c101C10 s=1 factible=1 K=3 TC=3388.2454 t=0.57s 
+c202C10 s=1 factible=1 K=1 TC=1304.0583 t=0.37s 
+c208C15 s=1 factible=1 K=2 TC=2300.5485 t=0.62s 
+r103C10 s=1 factible=1 K=2 TC=2206.304 t=2.53s 
+r202C5 s=1 factible=1 K=1 TC=1142.6539 t=0.12s 
+r209C15 s=1 factible=1 K=1 TC=1333.5021 t=5.78s 
+rc108C10 s=1 factible=1 K=3 TC=3345.9273 t=0.36s 
+rc204C15 s=1 factible=1 K=1 TC=1385.4802 t=12.7s 
+resumen en /home/user/oe3/combinado/resultados/res_hma_ld_peq/parte0/resumen.md

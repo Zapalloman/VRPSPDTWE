@@ -1,0 +1,3 @@
+Running HiGHS 1.16.0 (git hash: f3f113d): Copyright (c) 2026 under MIT licence terms
+Includes third-party software components, see THIRD_PARTY_NOTICES.md for full details
+pool lineas=23704 columnas=12231 carga=0.1s SP=12089.59 K=11 info=('kTimeLimit', 0.0098, 12231, 2002, False) t=7.5

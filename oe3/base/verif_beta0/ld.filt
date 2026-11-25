@@ -1,0 +1,210 @@
+NAME : rc201_21
+TYPE : EVRP-TW-SPD
+DIMENSION : 122
+VEHICLES : 25
+DISPATCHINGCOST : 1000
+UNITCOST : 1.0
+CAPACITY : 1000.0
+ELECTRIC_POWER : 211.04
+CONSUMPTION_RATE : 1.0
+RECHARGING_RATE : 0.14
+EDGE_WEIGHT_TYPE : EXPLICIT
+Node number: 122
+Customer number: 100
+Station number: 21
+Avg pick-up/dilvery demand: 9.9200,7.3200
+Starting/end time of DC: 0.0000,960.0000
+
+Initial random seed: 1
+Pruning: on
+Time limit: 30 seconds
+Runs: 1
+g_1: 20
+Population size: 4
+Insertion for initialization: rcrs
+k_init: 100
+Insertion for crossover: regret
+k_crossover: 100
+Parent selection: circle
+Replacement strategy: one_on_one
+Local search probability: 1.00
+O(1) evaluation: on
+2-opt: on
+2-opt*: on
+or-opt: on
+2-exchange: on
+escape local optima number: 1
+random_removal: off
+related_removal: on
+alpha: 1.000000, relateness norm factor: 1.000000
+Destroy lower ration: 0.100000
+Destroy upper ration: 0.200000
+regret_insertion: on
+greedy_insertion: off
+Random removal and insertion: off
+Station range: 11
+Subproblem num: 1
+Total edges 9900, prune by time window 4257(43.0000%), prune by capacity 0(0.0000%)
+---------------------------------Run 1---------------------------
+Initialization, using rcrs method
+Solution 0, cost 6219.56, m 4
+best cost 6219.56, m 4
+Initialization done.
+After local search
+Avg 5637.83, Best 5637.83 / m 4, Worst 5637.83
+Best solution update: 5602.0587
+After large neighbourhood search
+Avg 5602.06, Best 5602.06 / m 4, Worst 5602.06
+After large neighbourhood search
+Avg 5602.06, Best 5602.06 / m 4, Worst 5602.06
+After large neighbourhood search
+Avg 5602.06, Best 5602.06 / m 4, Worst 5602.06
+After large neighbourhood search
+Avg 5602.06, Best 5602.06 / m 4, Worst 5602.06
+After large neighbourhood search
+Avg 5602.06, Best 5602.06 / m 4, Worst 5602.06
+Best solution update: 5590.5011
+After large neighbourhood search
+Avg 5590.50, Best 5590.50 / m 4, Worst 5590.50
+After large neighbourhood search
+Avg 5590.50, Best 5590.50 / m 4, Worst 5590.50
+Best solution update: 5533.0184
+After large neighbourhood search
+Avg 5533.02, Best 5533.02 / m 4, Worst 5533.02
+Best solution update: 5528.1001
+After large neighbourhood search
+Avg 5528.10, Best 5528.10 / m 4, Worst 5528.10
+Best solution update: 5526.9876
+After large neighbourhood search
+Avg 5526.99, Best 5526.99 / m 4, Worst 5526.99
+Best solution update: 5526.5270
+After large neighbourhood search
+Avg 5526.53, Best 5526.53 / m 4, Worst 5526.53
+After large neighbourhood search
+Avg 5526.53, Best 5526.53 / m 4, Worst 5526.53
+After large neighbourhood search
+Avg 5526.53, Best 5526.53 / m 4, Worst 5526.53
+After large neighbourhood search
+Avg 5526.53, Best 5526.53 / m 4, Worst 5526.53
+After large neighbourhood search
+Avg 5526.53, Best 5526.53 / m 4, Worst 5526.53
+After large neighbourhood search
+Avg 5526.53, Best 5526.53 / m 4, Worst 5526.53
+Best solution update: 5526.5190
+After large neighbourhood search
+Avg 5526.52, Best 5526.52 / m 4, Worst 5526.52
+After large neighbourhood search
+Avg 5526.52, Best 5526.52 / m 4, Worst 5526.52
+After large neighbourhood search
+Avg 5526.52, Best 5526.52 / m 4, Worst 5526.52
+After large neighbourhood search
+Avg 5526.52, Best 5526.52 / m 4, Worst 5526.52
+After large neighbourhood search
+Avg 5526.52, Best 5526.52 / m 4, Worst 5526.52
+After large neighbourhood search
+Avg 5526.52, Best 5526.52 / m 4, Worst 5526.52
+After large neighbourhood search
+Avg 5526.52, Best 5526.52 / m 4, Worst 5526.52
+After large neighbourhood search
+Avg 5526.52, Best 5526.52 / m 4, Worst 5526.52
+Best solution update: 5509.0731
+After large neighbourhood search
+Avg 5509.07, Best 5509.07 / m 4, Worst 5509.07
+After large neighbourhood search
+Avg 5509.07, Best 5509.07 / m 4, Worst 5509.07
+After large neighbourhood search
+Avg 5509.07, Best 5509.07 / m 4, Worst 5509.07
+After large neighbourhood search
+Avg 5509.07, Best 5509.07 / m 4, Worst 5509.07
+After large neighbourhood search
+Avg 5509.07, Best 5509.07 / m 4, Worst 5509.07
+After large neighbourhood search
+Avg 5509.07, Best 5509.07 / m 4, Worst 5509.07
+After large neighbourhood search
+Avg 5509.07, Best 5509.07 / m 4, Worst 5509.07
+Best solution update: 5506.6077
+After large neighbourhood search
+Avg 5506.61, Best 5506.61 / m 4, Worst 5506.61
+After large neighbourhood search
+Avg 5506.61, Best 5506.61 / m 4, Worst 5506.61
+After large neighbourhood search
+Avg 5506.61, Best 5506.61 / m 4, Worst 5506.61
+After large neighbourhood search
+Avg 5506.61, Best 5506.61 / m 4, Worst 5506.61
+After large neighbourhood search
+Avg 5506.61, Best 5506.61 / m 4, Worst 5506.61
+After large neighbourhood search
+Avg 5506.61, Best 5506.61 / m 4, Worst 5506.61
+After large neighbourhood search
+Avg 5506.61, Best 5506.61 / m 4, Worst 5506.61
+After large neighbourhood search
+Avg 5506.61, Best 5506.61 / m 4, Worst 5506.61
+After large neighbourhood search
+Avg 5506.61, Best 5506.61 / m 4, Worst 5506.61
+After large neighbourhood search
+Avg 5506.61, Best 5506.61 / m 4, Worst 5506.61
+After large neighbourhood search
+Avg 5506.61, Best 5506.61 / m 4, Worst 5506.61
+After large neighbourhood search
+Avg 5506.61, Best 5506.61 / m 4, Worst 5506.61
+After large neighbourhood search
+Avg 5506.61, Best 5506.61 / m 4, Worst 5506.61
+After large neighbourhood search
+Avg 5506.61, Best 5506.61 / m 4, Worst 5506.61
+After large neighbourhood search
+Avg 5506.61, Best 5506.61 / m 4, Worst 5506.61
+After large neighbourhood search
+Avg 5506.61, Best 5506.61 / m 4, Worst 5506.61
+After large neighbourhood search
+Avg 5506.61, Best 5506.61 / m 4, Worst 5506.61
+After large neighbourhood search
+Avg 5506.61, Best 5506.61 / m 4, Worst 5506.61
+After large neighbourhood search
+Avg 5506.61, Best 5506.61 / m 4, Worst 5506.61
+After large neighbourhood search
+Avg 5506.61, Best 5506.61 / m 4, Worst 5506.61
+After large neighbourhood search
+Avg 5506.61, Best 5506.61 / m 4, Worst 5506.61
+sub_problem_num: 1
+subproblem 1, customer: 100
+Total edges 9900, prune by time window 4257(43.0000%), prune by capacity 0(0.0000%)
+Initialization, using perturb method
+Solution 0, cost 6894.24, m 5
+Solution 1, cost 5590.17, m 4
+Solution 2, cost 6960.28, m 5
+Solution 3, cost 5506.61, m 4
+best cost 5506.61, m 4
+Initialization done.
+After local search
+Avg 5765.91, Best 5506.61 / m 4, Worst 6476.12
+Do crossover.
+Best solution update: 5484.2840
+Gen: 1. Avg 5533.23, Best 5484.28 / m 4, Worst 5585.86
+Do crossover.
+Best solution update: 5471.5989
+Gen: 2. Avg 5530.06, Best 5471.60 / m 4, Worst 5585.86
+Do crossover.
+Gen: 3. Avg 5525.37, Best 5471.60 / m 4, Worst 5585.86
+Do crossover.
+Best solution update: 5470.5030
+Gen: 4. Avg 5521.04, Best 5470.50 / m 4, Worst 5585.86
+Do crossover.
+Best solution update: 5466.2567
+Gen: 5. Avg 5519.70, Best 5466.26 / m 4, Worst 5585.86
+Do crossover.
+Gen: 6. Avg 5504.08, Best 5466.26 / m 4, Worst 5556.18
+Do crossover.
+Best solution update: 5464.3500
+Gen: 7. Avg 5487.14, Best 5464.35 / m 4, Worst 5522.70
+Do crossover.
+Gen: 8. Avg 5487.14, Best 5464.35 / m 4, Worst 5522.70
+Run 1 finishes
+Avg 5487.14, Best 5464.35 / m 4, Worst 5522.70
+5506.61, 5464.35, 5464.35
+After decomposition
+Avg 5464.35, Best 5464.35 / m 4, Worst 5464.35
+Best solution update: 5464.3500
+Run 1 finishes
+Avg 5464.35, Best 5464.35 / m 4, Worst 5464.35
+------------Summary-----------
+This cost 5464.349982, check total cost 5464.349982, diff 0.000000

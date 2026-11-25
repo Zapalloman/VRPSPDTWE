@@ -1,0 +1,7 @@
+c101C5: 2, 2257.75, 2257.75, 0.37, subproblem = 1, timelimit = 105
+c103C15: 3, 3348.46, 3348.46, 1.62, subproblem = 1, timelimit = 105
+r102C10: 3, 3249.19, 3249.19, 0.36, subproblem = 1, timelimit = 105
+rc108C15: 3, 3370.25, 3370.25, 0.90, subproblem = 1, timelimit = 105
+r202C15: 2, 2358.00, 2358.00, 0.87, subproblem = 1, timelimit = 105
+rc201C10: 2, 2323.06, 2323.06, 0.86, subproblem = 1, timelimit = 105
+rc201_21: 4, 5464.35, 5464.35, 31.08, subproblem = 1, timelimit = 30
